@@ -7,7 +7,7 @@ type PageProps = {
 
 export default async function ItemDetailPage({ params }: PageProps) {
   const { id } = await params;
-  const item = items.find((entry: { id: string }) => entry.id === id);
+  const item: Item | undefined = items.find((entry) => entry.id === id);
 
   if (!item) {
     return (
@@ -79,7 +79,7 @@ export default async function ItemDetailPage({ params }: PageProps) {
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
-            {item.images.map((image: string, index: number) => (
+            {item.images.map((image, index) => (
               <div
                 key={image}
                 className="overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-100"
