@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { items, type Item } from "../../../data/items";
+import { items } from "../../../data/items";
 
 type PageProps = {
   params: Promise<{ id: string }>;
@@ -7,7 +7,7 @@ type PageProps = {
 
 export default async function ItemDetailPage({ params }: PageProps) {
   const { id } = await params;
-  const item: Item | undefined = items.find((entry) => entry.id === id);
+  const item = items.find((entry) => entry.id === id);
 
   if (!item) {
     return (
@@ -34,7 +34,7 @@ export default async function ItemDetailPage({ params }: PageProps) {
           </h1>
 
           <div className="mt-4 flex flex-wrap gap-2">
-            {item.types.map((type: string) => (
+            {item.types.map((type) => (
               <span
                 key={type}
                 className="rounded-full bg-neutral-100 px-3 py-1 text-xs text-neutral-600"
@@ -94,9 +94,7 @@ export default async function ItemDetailPage({ params }: PageProps) {
           </div>
 
           <div className="mt-8">
-            <h2 className="text-lg font-semibold text-neutral-900">
-              原始發文內容
-            </h2>
+            <h2 className="text-lg font-semibold text-neutral-900">原始發文內容</h2>
             <p className="mt-3 whitespace-pre-line text-sm leading-7 text-neutral-700">
               {item.postContent}
             </p>

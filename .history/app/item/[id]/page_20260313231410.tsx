@@ -7,7 +7,7 @@ type PageProps = {
 
 export default async function ItemDetailPage({ params }: PageProps) {
   const { id } = await params;
-  const item: Item | undefined = items.find((entry) => entry.id === id);
+  const item = items.find((entry) => entry.id === id);
 
   if (!item) {
     return (

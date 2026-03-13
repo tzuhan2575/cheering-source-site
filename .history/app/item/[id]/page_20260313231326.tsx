@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { items, type Item } from "../../../data/items";
+import { items } from "../../../data/items";
 
 type PageProps = {
   params: Promise<{ id: string }>;
@@ -7,7 +7,7 @@ type PageProps = {
 
 export default async function ItemDetailPage({ params }: PageProps) {
   const { id } = await params;
-  const item: Item | undefined = items.find((entry) => entry.id === id);
+  const item = items.find((entry) => entry.id === id);
 
   if (!item) {
     return (
