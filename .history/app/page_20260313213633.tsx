@@ -1,23 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { ChangeEvent, useMemo, useState } from "react";
+import { ChangeEvent, useEffect, useMemo, useState } from "react";
 import { items } from "../data/items";
-import { searchBestMatch } from "../lib/image-search";
-import ItemCard from "../components/ItemCard";
+import { searchSimilarItems } from "../lib/image-search";
 
-const typeOptions = [
-  "全部",
-  "貼紙",
-  "胸章",
-  "鑰匙圈",
-  "杯套",
-  "透卡",
-  "鈔票",
-  "書籤",
-  "原子筆",
-  "其他",
-];
+const typeOptions = ["全部", "貼紙", "胸章", "鑰匙圈", "杯套", "其他"];
 
 export default function Home() {
   const [selectedType, setSelectedType] = useState("全部");
@@ -25,32 +13,57 @@ export default function Home() {
   const [selectedFileName, setSelectedFileName] = useState("");
   const [previewUrl, setPreviewUrl] = useState("");
   const [hasSearched, setHasSearched] = useState(false);
-  const [bestMatchId, setBestMatchId] = useState<string | null>(null);
+  const [searchResultIds, setSearchResultIds] = useState<string[]>([]);
   const [isSearching, setIsSearching] = useState(false);
   const [searchError, setSearchError] = useState("");
+
+  useEffect(() => {
+    const savedPreviewUrl = sessionStorage.getItem("searchPreviewUrl");
+    const savedFileName = sessionStorage.getItem("searchFileName");
+    const savedHasSearched = sessionStorage.getItem("hasSearched");
+    const savedResultIds = sessionStorage.getItem("searchResultIds");
+
+    if (savedPreviewUrl) setPreviewUrl(savedPreviewUrl);
+    if (savedFileName) setSelectedFileName(savedFileName);
+    if (savedHasSearched === "true") setHasSearched(true);
+    if (savedResultIds) setSearchResultIds(JSON.parse(savedResultIds));
+  }, []);
 
   const filteredItems =
     selectedType === "全部"
       ? items
       : items.filter((item) => item.types.includes(selectedType));
 
-  const bestMatch = useMemo(() => {
-    if (!bestMatchId) return null;
-    return items.find((item) => item.id === bestMatchId) || null;
-  }, [bestMatchId]);
+  const searchResults = useMemo(() => {
+    if (!hasSearched) return [];
+    return searchResultIds
+      .map((id) => items.find((item) => item.id === id))
+      .filter(Boolean);
+  }, [hasSearched, searchResultIds]);
 
   const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (!file) return;
 
-    const objectUrl = URL.createObjectURL(file);
+    const reader = new FileReader();
 
-    setSelectedFile(file);
-    setSelectedFileName(file.name);
-    setPreviewUrl(objectUrl);
-    setHasSearched(false);
-    setBestMatchId(null);
-    setSearchError("");
+    reader.onloadend = () => {
+      const result = reader.result as string;
+
+      setSelectedFile(file);
+      setSelectedFileName(file.name);
+      setPreviewUrl(result);
+      setHasSearched(false);
+      setSearchResultIds([]);
+      setSearchError("");
+
+      sessionStorage.setItem("searchFileName", file.name);
+      sessionStorage.setItem("searchPreviewUrl", result);
+      sessionStorage.setItem("hasSearched", "false");
+      sessionStorage.setItem("searchResultIds", JSON.stringify([]));
+    };
+
+    reader.readAsDataURL(file);
   };
 
   const handleSearch = async () => {
@@ -60,15 +73,21 @@ export default function Home() {
       setIsSearching(true);
       setSearchError("");
 
-      const result = await searchBestMatch(selectedFile, items, 0.25);
+      const results = await searchSimilarItems(selectedFile, items, 3);
+      const ids = results.map((result) => result.id);
 
+      setSearchResultIds(ids);
       setHasSearched(true);
-      setBestMatchId(result ? result.id : null);
+
+      sessionStorage.setItem("hasSearched", "true");
+      sessionStorage.setItem("searchResultIds", JSON.stringify(ids));
     } catch (error) {
       console.error(error);
       setSearchError("搜尋失敗，請稍後再試一次。");
       setHasSearched(false);
-      setBestMatchId(null);
+      setSearchResultIds([]);
+      sessionStorage.setItem("hasSearched", "false");
+      sessionStorage.setItem("searchResultIds", JSON.stringify([]));
     } finally {
       setIsSearching(false);
     }
@@ -80,9 +99,14 @@ export default function Home() {
     setSelectedFileName("");
     setPreviewUrl("");
     setHasSearched(false);
-    setBestMatchId(null);
+    setSearchResultIds([]);
     setSearchError("");
     setIsSearching(false);
+
+    sessionStorage.removeItem("searchFileName");
+    sessionStorage.removeItem("searchPreviewUrl");
+    sessionStorage.removeItem("hasSearched");
+    sessionStorage.removeItem("searchResultIds");
   };
 
   return (
@@ -98,7 +122,7 @@ export default function Home() {
               應援物查詢站
             </button>
             <p className="mt-3 max-w-2xl text-sm leading-6 text-neutral-600">
-              協助整理演唱會應援物資訊，並提供平台內部以圖搜圖功能，方便查找原始發文與創作者。
+              協助整理應援物來源資訊，降低盜圖與冒名造成的混亂。
             </p>
           </div>
 
@@ -106,24 +130,14 @@ export default function Home() {
             href="/submit"
             className="inline-flex items-center justify-center rounded-xl bg-black px-4 py-2 text-sm text-white transition hover:opacity-90"
           >
-            提交應援資訊
+            新增資料
           </Link>
-        </div>
-
-        <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm leading-6 text-amber-900">
-          <p className="font-medium">公告</p>
-          <p className="mt-2">
-            本平台資料仍在持續補充中，若目前尚未找到相關應援物，可晚些再回來查看。
-          </p>
-          <p className="mt-2">
-            本平台僅整理 TWICE《THIS IS FOR》台北場相關應援資訊，預計使用至本次台北場活動結束。
-          </p>
         </div>
 
         <div className="mt-8 rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm">
           <h2 className="text-xl font-semibold text-neutral-900">以圖搜圖</h2>
           <p className="mt-2 text-sm leading-6 text-neutral-600">
-            上傳應援物圖片，查找平台內最接近的一筆已收錄資料。
+            上傳應援物圖片，查找平台內已收錄的相似圖片與來源資訊。
           </p>
 
           <div className="mt-4 rounded-2xl border-2 border-dashed border-neutral-300 bg-neutral-50 p-6">
@@ -173,25 +187,27 @@ export default function Home() {
 
                   <p>
                     搜尋範圍：
-                    <span className="ml-1 text-neutral-900">平台內已收錄資料</span>
+                    <span className="ml-1 text-neutral-900">
+                      平台內已收錄資料
+                    </span>
                   </p>
                 </div>
 
                 <button
-                  type="button"
-                  onClick={handleSearch}
-                  disabled={!selectedFile || isSearching}
-                  className={`mt-6 flex w-full items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm text-white transition ${
-                    selectedFile && !isSearching
-                      ? "bg-black hover:opacity-90"
-                      : "cursor-not-allowed bg-neutral-300"
-                  }`}
-                >
-                  {isSearching && (
-                    <span className="h-4 w-4 animate-spin rounded-full border-2 border-white/50 border-t-white" />
-                  )}
-                  <span>{isSearching ? "搜尋中…" : "開始搜尋"}</span>
-                </button>
+  type="button"
+  onClick={handleSearch}
+  disabled={!selectedFile || isSearching}
+  className={`mt-6 flex w-full items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm text-white transition ${
+    selectedFile && !isSearching
+      ? "bg-black hover:opacity-90"
+      : "cursor-not-allowed bg-neutral-300"
+  }`}
+>
+  {isSearching && (
+    <span className="h-4 w-4 animate-spin rounded-full border-2 border-white/50 border-t-white" />
+  )}
+  <span>{isSearching ? "搜尋中…" : "開始搜尋"}</span>
+</button>
 
                 <p className="mt-3 text-xs leading-5 text-neutral-500">
                   第一次搜尋會先下載模型，可能會稍微久一點。
@@ -202,7 +218,9 @@ export default function Home() {
                     <div className="flex items-start gap-3">
                       <div className="mt-0.5 h-5 w-5 animate-spin rounded-full border-2 border-neutral-300 border-t-black" />
                       <div>
-                        <p className="text-sm font-medium text-neutral-900">搜尋中</p>
+                        <p className="text-sm font-medium text-neutral-900">
+                          搜尋中
+                        </p>
                         <p className="mt-1 text-sm leading-6 text-neutral-600">
                           正在分析上傳圖片，並與平台內已收錄資料比對，請稍候…
                         </p>
@@ -214,7 +232,9 @@ export default function Home() {
                 {searchError && (
                   <div className="mt-4 rounded-2xl border border-red-200 bg-red-50 p-4">
                     <p className="text-sm font-medium text-red-700">搜尋失敗</p>
-                    <p className="mt-1 text-sm leading-6 text-red-600">{searchError}</p>
+                    <p className="mt-1 text-sm leading-6 text-red-600">
+                      {searchError}
+                    </p>
                   </div>
                 )}
               </div>
@@ -226,16 +246,49 @@ export default function Home() {
           <div className="mt-8 rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm">
             <h2 className="text-xl font-semibold text-neutral-900">搜尋結果</h2>
             <p className="mt-2 text-sm leading-6 text-neutral-600">
-              以下為平台內最接近的一筆資料。
+              以下為平台內可能相關的已收錄資料。
             </p>
 
-            {bestMatch ? (
-              <div className="mt-6 max-w-sm">
-                <ItemCard item={bestMatch} />
+            {searchResults.length > 0 ? (
+              <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {searchResults.map((item) => {
+                  if (!item) return null;
+
+                  return (
+                    <Link key={item.id} href={`/item/${item.id}`}>
+                      <article className="overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+                        <div className="flex items-center justify-between border-b border-neutral-100 px-4 py-3">
+                          <p className="font-medium text-neutral-900">
+                            {item.creator}
+                          </p>
+                          <span
+                            className={`rounded-full px-3 py-1 text-xs ${
+                              item.status === "有異議"
+                                ? "bg-red-100 text-red-700"
+                                : item.status === "已附來源"
+                                  ? "bg-emerald-100 text-emerald-700"
+                                  : "bg-neutral-100 text-neutral-600"
+                            }`}
+                          >
+                            {item.status}
+                          </span>
+                        </div>
+
+                        <div className="aspect-square w-full overflow-hidden bg-neutral-100">
+                          <img
+                            src={item.images[0]}
+                            alt={item.title}
+                            className="h-full w-full object-cover"
+                          />
+                        </div>
+                      </article>
+                    </Link>
+                  );
+                })}
               </div>
             ) : (
               <div className="mt-6 rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-sm text-neutral-600">
-                目前沒有找到相似度足夠高的結果。
+                目前沒有找到相關結果。
               </div>
             )}
           </div>
@@ -262,14 +315,39 @@ export default function Home() {
 
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filteredItems.map((item) => (
-            <ItemCard key={item.id} item={item} />
+            <Link key={item.id} href={`/item/${item.id}`}>
+              <article className="overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+                <div className="flex items-center justify-between border-b border-neutral-100 px-4 py-3">
+                  <p className="font-medium text-neutral-900">{item.creator}</p>
+                  <span
+                    className={`rounded-full px-3 py-1 text-xs ${
+                      item.status === "有異議"
+                        ? "bg-red-100 text-red-700"
+                        : item.status === "已附來源"
+                          ? "bg-emerald-100 text-emerald-700"
+                          : "bg-neutral-100 text-neutral-600"
+                    }`}
+                  >
+                    {item.status}
+                  </span>
+                </div>
+
+                <div className="aspect-square w-full overflow-hidden bg-neutral-100">
+                  <img
+                    src={item.images[0]}
+                    alt={item.title}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+              </article>
+            </Link>
           ))}
         </div>
 
         <div className="mt-12 rounded-2xl border border-neutral-200 bg-white p-5 text-sm leading-6 text-neutral-600 shadow-sm">
           <p className="font-medium text-neutral-900">平台說明</p>
           <p className="mt-2">
-            本平台僅提供演唱會應援物資訊整理與平台內部以圖搜圖功能，協助使用者查找可能對應的原始發文與創作者。
+            本平台僅提供應援物圖片與來源資訊整理，協助使用者查找可能對應的原始發文與創作者。
           </p>
           <p className="mt-2">
             平台不負責各創作者之應援物發放細節、實物內容、數量、品質、交換方式或後續聯繫，也不保證圖片與實際物品完全一致。
