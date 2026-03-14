@@ -212,8 +212,7 @@ export default function Home() {
                 </button>
 
                 <p className="mt-3 text-xs leading-5 text-neutral-500">
-                  第一次搜尋會先下載模型，可能會稍微久一點。若在 Threads 或 IG
-                  內建瀏覽器中出現異常，建議改用 Safari 或 Chrome 開啟。
+                  第一次搜尋會先下載模型，可能會稍微久一點。
                 </p>
 
                 {isSearching && (
