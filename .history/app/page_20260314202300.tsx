@@ -73,23 +73,23 @@ export default function Home() {
   };
 
   useEffect(() => {
-    let isMounted = true;
+  let isMounted = true;
 
-    const runPrebuild = async () => {
-      try {
-        if (!isMounted) return;
-        await prebuildItemEmbeddings(items);
-      } catch (error) {
-        console.warn("Failed to prebuild item embeddings.", error);
-      }
-    };
+  const runPrebuild = async () => {
+    try {
+      if (!isMounted) return;
+      await prebuildItemEmbeddings(items);
+    } catch (error) {
+      console.warn("Failed to prebuild item embeddings.", error);
+    }
+  };
 
-    runPrebuild();
+  runPrebuild();
 
-    return () => {
-      isMounted = false;
-    };
-  }, []);
+  return () => {
+    isMounted = false;
+  };
+}, []);
 
   return (
     <main className="min-h-screen bg-neutral-50 px-6 py-10">

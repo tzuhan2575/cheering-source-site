@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { ChangeEvent, useEffect, useMemo, useState } from "react";
 import { items, TYPE_OPTIONS, type ItemType } from "../data/items";
-import { prebuildItemEmbeddings, searchBestMatch } from "../lib/image-search";
+import { searchBestMatch } from "../lib/image-search";
 import ItemCard from "../components/ItemCard";
 
 export default function Home() {
@@ -71,25 +71,6 @@ export default function Home() {
     setSearchError("");
     setIsSearching(false);
   };
-
-  useEffect(() => {
-    let isMounted = true;
-
-    const runPrebuild = async () => {
-      try {
-        if (!isMounted) return;
-        await prebuildItemEmbeddings(items);
-      } catch (error) {
-        console.warn("Failed to prebuild item embeddings.", error);
-      }
-    };
-
-    runPrebuild();
-
-    return () => {
-      isMounted = false;
-    };
-  }, []);
 
   return (
     <main className="min-h-screen bg-neutral-50 px-6 py-10">

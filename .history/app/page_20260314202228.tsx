@@ -72,25 +72,6 @@ export default function Home() {
     setIsSearching(false);
   };
 
-  useEffect(() => {
-    let isMounted = true;
-
-    const runPrebuild = async () => {
-      try {
-        if (!isMounted) return;
-        await prebuildItemEmbeddings(items);
-      } catch (error) {
-        console.warn("Failed to prebuild item embeddings.", error);
-      }
-    };
-
-    runPrebuild();
-
-    return () => {
-      isMounted = false;
-    };
-  }, []);
-
   return (
     <main className="min-h-screen bg-neutral-50 px-6 py-10">
       <div className="mx-auto max-w-6xl">
