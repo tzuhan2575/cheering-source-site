@@ -17,16 +17,15 @@ export default function SubmitPage() {
           </Link>
         </div>
 
-        <h1 className="text-2xl font-bold text-neutral-900">
-          協助新增應援資訊
-        </h1>
+        <h1 className="text-2xl font-bold text-neutral-900">協助新增應援資訊</h1>
         <p className="mt-2 text-sm leading-6 text-neutral-600">
-          如果你有看到尚未收錄的 TWICE《THIS IS
-          FOR》台北場應援資訊，歡迎透過下列表單協助補充。
+          若你希望補充 TWICE《THIS IS FOR》台北場應援物資訊，可透過下列表單提交。
         </p>
 
         <div className="mt-6 rounded-2xl border border-neutral-200 bg-neutral-50 p-5 text-sm leading-6 text-neutral-600">
-          <p>表單將於新分頁開啟，提交後可再返回本站查看。</p>
+          <p>
+            表單將於新分頁開啟，提交後可再返回本站查看。
+          </p>
         </div>
 
         <div className="mt-6">
