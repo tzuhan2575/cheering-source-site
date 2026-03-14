@@ -1594,7 +1594,7 @@ CHAEBERRY 瓶蓋徽章
     id: "item_051",
     creator: "@sh154.a",
     creatorUrl: "https://www.threads.com/@sh154.a",
-    types: ["其他"],
+    types: ["戒指", "其他"],
     title: "3/20 應援｜成員豆豆眼戒指與便利貼",
     postUrl:
       "https://www.threads.com/@sh154.a/post/DU3R5XPElrC?xmt=AQF0vGNMN1h8-8ZxE8z_4Am2cgUte3a95_KVXKjdaQJfrg",
