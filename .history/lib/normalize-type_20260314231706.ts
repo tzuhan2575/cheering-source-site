@@ -5,6 +5,7 @@ export function normalizeType(type: string): ItemType {
 
   const map: Record<string, ItemType> = {
     貼紙: "貼紙",
+    胸章: "胸章",
     徽章: "徽章",
     勳章: "其他",
     鑰匙圈: "鑰匙圈",

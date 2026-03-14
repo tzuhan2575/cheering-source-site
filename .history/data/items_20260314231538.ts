@@ -1,6 +1,7 @@
 export const TYPE_OPTIONS = [
   "全部",
   "貼紙",
+  "胸章",
   "鑰匙圈",
   "吊飾",
   "透卡",
@@ -29,12 +30,74 @@ export type Item = {
   images: string[];
 };
 
+export function normalizeType(type: string): ItemType {
+  const value = type.trim();
+
+  const map: Record<string, ItemType> = {
+    貼紙: "貼紙",
+    胸章: "胸章",
+    徽章: "徽章",
+    勳章: "其他",
+    鑰匙圈: "鑰匙圈",
+    吊飾: "吊飾",
+    吊牌: "其他",
+    杯套: "其他",
+    透卡: "透卡",
+    小卡: "小卡",
+    方卡: "小卡",
+    卡片: "小卡",
+    透明底片: "小卡",
+    票卡: "其他",
+    票根: "其他",
+    手幅: "手幅",
+    手搖旗: "手幅",
+    扇子: "扇子",
+    透扇: "扇子",
+    拍立得: "其他",
+    撕拉片: "撕拉片",
+    書籤: "書籤",
+    原子筆: "其他",
+    髮夾: "其他",
+    手機支架: "其他",
+    擦拭布: "擦拭布",
+    眼鏡布: "擦拭布",
+    磁鐵: "磁鐵",
+    鏡子: "鏡子",
+    鈔票: "其他",
+    戒指: "其他",
+    尺: "其他",
+    湯匙: "其他",
+    鐵盒: "其他",
+    燈箱: "其他",
+    壓克力: "其他",
+    應援幣: "其他",
+    束口袋: "其他",
+    立牌: "其他",
+  };
+
+  return map[value] ?? "其他";
+}
+
+export function normalizeTypes(types: string[]): ItemType[] {
+  return Array.from(new Set(types.map(normalizeType)));
+}
+
+export type Item = {
+  id: string;
+  creator: string;
+  creatorUrl: string;
+  types: ItemType[];
+  title: string;
+  postUrl: string;
+  postContent: string;
+  images: string[];
+};
 export const items: Item[] = [
   {
     id: "item_001",
     creator: "@leanne11_a",
     creatorUrl: "https://www.threads.com/@leanne11_a",
-    types: ["貼紙", "徽章"],
+    types: ["貼紙", "胸章"],
     title: "TWICE <THIS IS FOR> in TAIPEI 台北場應援",
     postUrl:
       "https://www.threads.com/@leanne11_a/post/DVXi2E2CJgS?xmt=AQF0W5rttuvFJd1N3YCq7y9QUhu3n8clJ7FXivG_a79hMQ",
@@ -63,7 +126,7 @@ export const items: Item[] = [
     id: "item_002",
     creator: "@on.twi_ce",
     creatorUrl: "https://www.threads.com/@on.twi_ce",
-    types: ["徽章", "鑰匙圈", "其他"],
+    types: ["徽章", "鑰匙圈", "杯套"],
     title: "TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI 免費應援發放",
     postUrl:
       "https://www.threads.com/@on.twi_ce/post/DVyEQU0kuCl?xmt=AQF0gtDlneb1_Qf6JQG7hOQa1j2KZCZwqZAf6DUtRLwPgA",
@@ -94,7 +157,7 @@ export const items: Item[] = [
     id: "item_003",
     creator: "@can_t.stop.mi_",
     creatorUrl: "https://www.threads.com/@can_t.stop.mi_",
-    types: ["其他"],
+    types: ["鈔票", "其他"],
     title: "TWICE《THIS IS FOR》WORLD TOUR IN TAIPEI 最終應援公告",
     postUrl:
       "https://www.threads.com/@can_t.stop.mi_/post/DVlGisfD-kZ?xmt=AQF06p0kURAB1cEXIXyjUl7bKNzY9y3DLMd5BskjBQHOSw",
@@ -169,7 +232,7 @@ p.s. 還有就是，鈔票很多細節很難畫，我真的花了很大心力在
     id: "item_005",
     creator: "@tllng_61",
     creatorUrl: "https://www.threads.com/@tllng_61",
-    types: ["書籤", "其他"],
+    types: ["書籤", "原子筆", "其他"],
     title: "TWICE THIS IS FOR WORLD TOUR in TAIPEI 應援發放",
     postUrl:
       "https://www.threads.com/@tllng_61/post/DVxdTmikzkG?xmt=AQF0BDR1FXiN2UtJhInBouI-2ChKcm1_D4c_CqOBr-IXVA",
@@ -221,7 +284,7 @@ NAVELY、TZUVELY 原子筆（*交換為主）
     id: "item_007",
     creator: "@conniechen0806",
     creatorUrl: "https://www.threads.com/@conniechen0806",
-    types: ["小卡", "吊飾", "其他"],
+    types: ["手機支架", "髮夾", "小卡", "吊飾", "其他"],
     title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI 應援物發放",
     postUrl:
       "https://www.threads.com/@conniechen0806/post/DUNzSOoko9L?xmt=AQF0HBA-mrQbjwBoeKSNoH7Cxs7tT64cMUvcKelqAl9U-A",
@@ -459,7 +522,7 @@ CD 圖我們有另外做貼紙，也歡迎領取（貼紙為後面幾張圓圓�
     id: "item_015",
     creator: "@millyiwoo",
     creatorUrl: "https://www.threads.com/@millyiwoo",
-    types: ["吊飾", "手幅", "其他"],
+    types: ["吊飾", "壓克力", "手幅", "髮夾", "其他"],
     title: "TWICE 3/20-22 應援（內含抽獎）",
     postUrl:
       "https://www.threads.com/@millyiwoo/post/DUsqc97CXKK?xmt=AQF03syg9GoZpQrD1pJWZcZSKxCm1PP-cA9nwo2BdwJnMA",
@@ -541,7 +604,7 @@ CD 圖我們有另外做貼紙，也歡迎領取（貼紙為後面幾張圓圓�
     id: "item_017",
     creator: "@starri.29",
     creatorUrl: "https://www.threads.com/@starri.29",
-    types: ["小卡", "貼紙", "其他"],
+    types: ["小卡", "票卡", "貼紙", "其他"],
     title: "TWICE THIS IS FOR WORLD TOUR IN 台北｜免費應援物",
     postUrl:
       "https://www.threads.com/@starri.29/post/DT2dbwdkhRl?xmt=AQF0HL0spBojRs_Yl6RwDbo4le25I7LD1gC7ewdQDZvFYA",
@@ -584,7 +647,7 @@ myship.7-11.com.tw/gener…
     id: "item_018",
     creator: "@imangie.k",
     creatorUrl: "https://www.threads.com/@imangie.k",
-    types: ["擦拭布", "其他"],
+    types: ["擦拭布", "吊牌", "其他"],
     title: "台北場最終版應援文章｜眼鏡布與壓克力吊牌",
     postUrl:
       "https://www.threads.com/@imangie.k/post/DVv6lyTkslN?xmt=AQF0rLL-x2k1vHxgKmZ735iCYbiEcfinX6XtIBhkjEXaUw",
@@ -778,7 +841,7 @@ LOVELY 眼影盤磁鐵／MISAMO 刺繡徽章
     id: "item_024",
     creator: "@jjcciioouu",
     creatorUrl: "https://www.threads.com/@jjcciioouu",
-    types: ["其他"],
+    types: ["燈箱", "其他"],
     title: "飯製迷你燈箱｜現場免費應援發放",
     postUrl:
       "https://www.threads.com/@jjcciioouu/post/DSmpHROEawC?xmt=AQF0P4m1A61Aghh4vj0ld0ZhsAJNxokgPxkc3KyGPZmnCg",
@@ -861,7 +924,7 @@ MOMO 迷你手幅吊飾 45 份
     id: "item_027",
     creator: "@hyjkmnkzh",
     creatorUrl: "https://www.threads.com/@hyjkmnkzh",
-    types: ["其他"],
+    types: ["拍立得", "吊牌", "其他"],
     title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜撕拉拍立得與吊牌",
     postUrl:
       "https://www.threads.com/@hyjkmnkzh/post/DUNVUTDkTUA?xmt=AQF0FoPoPpDg6BjlwgD3VewVkRdCsVRnJGp0dz2GE3gXqg",
@@ -897,7 +960,7 @@ TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI
     id: "item_028",
     creator: "@_yu_hsinnn_",
     creatorUrl: "https://www.threads.com/@_yu_hsinnn_",
-    types: ["其他"],
+    types: ["湯匙", "其他"],
     title: "TWICE THSI IS FOR WORLD TOUR in TAIPEI｜啦不理湯匙應援",
     postUrl:
       "https://www.threads.com/@_yu_hsinnn_/post/DUPzntKCVQX?xmt=AQF0Cjc7tZUxnJZoWVvyZsEBrIk1w9_cdjvch8MzvRkjfA",
@@ -924,7 +987,7 @@ TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI
     id: "item_029",
     creator: "@maymi2003",
     creatorUrl: "https://www.threads.com/@maymi2003",
-    types: ["吊飾", "小卡", "其他"],
+    types: ["吊飾", "戒指", "勳章", "小卡", "其他"],
     title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜免費應援物發放",
     postUrl:
       "https://www.threads.com/@maymi2003/post/DUcpIvJETiT?xmt=AQF0oDxZVnsjgCRcz50D_oMH-MxOirs2xkSl4t7ItSim2g",
@@ -1127,7 +1190,7 @@ MISAMO 款 30 份
     id: "item_035",
     creator: "@tzuyu_ouen",
     creatorUrl: "https://www.threads.com/@tzuyu_ouen",
-    types: ["手幅", "扇子", "其他"],
+    types: ["手幅", "尺", "扇子", "其他"],
     title: "TWICE WORLD TOUR THIS IS FOR IN TAIPEI｜子瑜應援物免費發送",
     postUrl:
       "https://www.threads.com/@tzuyu_ouen/post/DUh9A1jCbD9?xmt=AQF0zwgAfKD3d9eVk7rDVUmSOSw6LVe2NTuvAd3v2pYLqg",
@@ -1164,7 +1227,7 @@ MISAMO 款 30 份
     id: "item_036",
     creator: "@uuu_0103",
     creatorUrl: "https://www.threads.com/@uuu_0103",
-    types: ["其他"],
+    types: ["鐵盒", "其他"],
     title: "TWICE THIS IS FOR IN TAIPEI｜鐵盒免費應援",
     postUrl:
       "https://www.threads.com/@uuu_0103/post/DU-k5jPkv_H?xmt=AQF0iUVpOppvU40bZuMtf2VwHSmujNIIiqTDJcz9yOlIOg",

@@ -1,6 +1,7 @@
 export const TYPE_OPTIONS = [
   "全部",
   "貼紙",
+  "胸章",
   "鑰匙圈",
   "吊飾",
   "透卡",
@@ -34,7 +35,7 @@ export const items: Item[] = [
     id: "item_001",
     creator: "@leanne11_a",
     creatorUrl: "https://www.threads.com/@leanne11_a",
-    types: ["貼紙", "徽章"],
+    types: ["貼紙", "胸章"],
     title: "TWICE <THIS IS FOR> in TAIPEI 台北場應援",
     postUrl:
       "https://www.threads.com/@leanne11_a/post/DVXi2E2CJgS?xmt=AQF0W5rttuvFJd1N3YCq7y9QUhu3n8clJ7FXivG_a79hMQ",
