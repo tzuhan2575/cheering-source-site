@@ -216,26 +216,21 @@ export default function Home() {
                       accept="image/*"
                       className="hidden"
                       onChange={handleFileChange}
-                      disabled={isMobileDevice}
                     />
                   </label>
 
                   <button
                     type="button"
                     onClick={handleSearch}
-                    disabled={!selectedFile || isSearching || isMobileDevice}
+                    disabled={!selectedFile || isSearching}
                     className="inline-flex w-full items-center justify-center rounded-xl bg-black px-4 py-2 text-sm text-white transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
                   >
-                    {isMobileDevice
-                      ? "手機版暫不開放搜圖"
-                      : isSearching
-                        ? "搜尋中..."
-                        : "開始搜尋"}
+                    {isSearching ? "搜尋中..." : "開始搜尋"}
                   </button>
                 </div>
 
                 <p className="mt-3 text-xs leading-5 text-neutral-500">
-                  以圖搜圖目前建議使用電腦版操作。手機瀏覽器可能因模型載入造成頁面異常或重新整理。
+                  第一次搜尋會先下載模型，可能會稍微久一點。若在手機或內建瀏覽器中出現異常，建議重新整理後再試一次。
                 </p>
               </div>
             </div>

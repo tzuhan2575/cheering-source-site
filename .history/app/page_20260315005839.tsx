@@ -60,8 +60,8 @@ export default function Home() {
   };
 
   const isMobileDevice =
-    typeof navigator !== "undefined" &&
-    /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  typeof navigator !== "undefined" &&
+  /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
   const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
@@ -82,13 +82,6 @@ export default function Home() {
   };
 
   const handleSearch = async () => {
-    if (isMobileDevice) {
-      setHasSearched(false);
-      setBestMatchId(null);
-      setSearchError("手機版目前暫不開放以圖搜圖，建議改用電腦版操作。");
-      return;
-    }
-
     if (!selectedFile) {
       setSearchError("請先選擇一張圖片。");
       return;
@@ -137,8 +130,7 @@ export default function Home() {
               協助整理演唱會應援物資訊，並提供平台內部以圖搜圖功能，方便查找原始發文與創作者。
             </p>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-neutral-600">
-              如果你有看到尚未收錄的台北場應援資訊，也歡迎協助補充，讓更多 ONCE
-              能更快找到原始發文與創作者資訊。
+              如果你有看到尚未收錄的台北場應援資訊，也歡迎協助補充，讓更多 ONCE 能更快找到原始發文與創作者資訊。
             </p>
           </div>
 
@@ -156,13 +148,10 @@ export default function Home() {
             本平台資料仍在持續補充中，若目前尚未找到相關應援物，可晚些再回來查看。
           </p>
           <p className="mt-2">
-            本平台僅整理 TWICE《THIS IS
-            FOR》台北場相關應援資訊，預計使用至本次台北場活動結束。
+            本平台僅整理 TWICE《THIS IS FOR》台北場相關應援資訊，預計使用至本次台北場活動結束。
           </p>
           <p className="mt-2">
-            若在 Threads 或 IG
-            內建瀏覽器中開啟時出現黑畫面、卡住或其他異常，建議改用 Safari 或
-            Chrome 開啟。
+            若在 Threads 或 IG 內建瀏覽器中開啟時出現黑畫面、卡住或其他異常，建議改用 Safari 或 Chrome 開啟。
           </p>
           <p className="mt-2">
             手機裝置首次使用以圖搜圖時，若頁面出現異常，建議重新整理一次後再試。
@@ -185,9 +174,7 @@ export default function Home() {
                     className="max-h-[320px] rounded-xl object-contain"
                   />
                 ) : (
-                  <p className="text-sm text-neutral-400">
-                    尚未選擇圖片，請先上傳
-                  </p>
+                  <p className="text-sm text-neutral-400">尚未選擇圖片，請先上傳</p>
                 )}
               </div>
 
@@ -197,9 +184,7 @@ export default function Home() {
                 <div className="mt-4 space-y-3 text-sm text-neutral-600">
                   <div>
                     <p className="font-medium text-neutral-800">已選擇圖片：</p>
-                    <p className="mt-1 break-all">
-                      {selectedFileName || "尚未選擇"}
-                    </p>
+                    <p className="mt-1 break-all">{selectedFileName || "尚未選擇"}</p>
                   </div>
 
                   <div>
@@ -216,26 +201,21 @@ export default function Home() {
                       accept="image/*"
                       className="hidden"
                       onChange={handleFileChange}
-                      disabled={isMobileDevice}
                     />
                   </label>
 
                   <button
                     type="button"
                     onClick={handleSearch}
-                    disabled={!selectedFile || isSearching || isMobileDevice}
+                    disabled={!selectedFile || isSearching}
                     className="inline-flex w-full items-center justify-center rounded-xl bg-black px-4 py-2 text-sm text-white transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
                   >
-                    {isMobileDevice
-                      ? "手機版暫不開放搜圖"
-                      : isSearching
-                        ? "搜尋中..."
-                        : "開始搜尋"}
+                    {isSearching ? "搜尋中..." : "開始搜尋"}
                   </button>
                 </div>
 
                 <p className="mt-3 text-xs leading-5 text-neutral-500">
-                  以圖搜圖目前建議使用電腦版操作。手機瀏覽器可能因模型載入造成頁面異常或重新整理。
+                  第一次搜尋會先下載模型，可能會稍微久一點。若在手機或內建瀏覽器中出現異常，建議重新整理後再試一次。
                 </p>
               </div>
             </div>
