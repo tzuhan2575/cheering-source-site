@@ -731,7 +731,7 @@ myship.7-11.com.tw/gener…
     id: "item_022",
     creator: "@dingdung_0607",
     creatorUrl: "https://www.threads.com/@dingdung_0607",
-    types: ["其他"],
+    types: 「"其他"],
     title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜Lovelys束口袋",
     postUrl:
       "https://www.threads.com/@dingdung_0607/post/DVr2gMFgRYX?xmt=AQF0R_wzO-SbGTvk002C4YnHrCVG-jvIMCgWHiT277ySiA",
@@ -1008,7 +1008,7 @@ TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI
     id: "item_031",
     creator: "@yuncih.guo",
     creatorUrl: "https://www.threads.com/@yuncih.guo",
-    types: ["扇子", "吊飾", "其他"],
+    types: ["扇子", "吊飾", "立牌", "其他"],
     title: "TWICE 大巨蛋應援交換文",
     postUrl:
       "https://www.threads.com/@yuncih.guo/post/DVRMiOZE2Oo?xmt=AQF0HNP3o39roalQ9YI9RpLzOk7a0XdPv4wBX9G_7Grl3w",

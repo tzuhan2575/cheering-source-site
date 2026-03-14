@@ -1008,7 +1008,7 @@ TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI
     id: "item_031",
     creator: "@yuncih.guo",
     creatorUrl: "https://www.threads.com/@yuncih.guo",
-    types: ["扇子", "吊飾", "其他"],
+    types: ["扇子", "吊飾", "立牌", "其他"],
     title: "TWICE 大巨蛋應援交換文",
     postUrl:
       "https://www.threads.com/@yuncih.guo/post/DVRMiOZE2Oo?xmt=AQF0HNP3o39roalQ9YI9RpLzOk7a0XdPv4wBX9G_7Grl3w",

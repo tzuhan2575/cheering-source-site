@@ -236,7 +236,7 @@ NAVELY、TZUVELY 原子筆（*交換為主）
     id: "item_007",
     creator: "@conniechen0806",
     creatorUrl: "https://www.threads.com/@conniechen0806",
-    types: ["手機支架", "髮夾", "小卡", "吊飾", "其他"],
+    types: ["手機支架", "髮夾", "透明底片", "吊飾", "其他"],
     title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI 應援物發放",
     postUrl:
       "https://www.threads.com/@conniechen0806/post/DUNzSOoko9L?xmt=AQF0HBA-mrQbjwBoeKSNoH7Cxs7tT64cMUvcKelqAl9U-A",
@@ -666,7 +666,7 @@ myship.7-11.com.tw/gener…
     id: "item_020",
     creator: "@mocinchenyue",
     creatorUrl: "https://www.threads.com/@mocinchenyue",
-    types: ["其他"],
+    types: ["應援幣", "其他"],
     title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜免費應援物公告",
     postUrl:
       "https://www.threads.com/@mocinchenyue/post/DU_Q_t-ki7R?xmt=AQF0VC_0_VTHKsFlO9QEj-TBCxG07GzBp2gv8EjODOcWzA",
@@ -731,7 +731,7 @@ myship.7-11.com.tw/gener…
     id: "item_022",
     creator: "@dingdung_0607",
     creatorUrl: "https://www.threads.com/@dingdung_0607",
-    types: ["其他"],
+    types: ["束口袋", "其他"],
     title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜Lovelys束口袋",
     postUrl:
       "https://www.threads.com/@dingdung_0607/post/DVr2gMFgRYX?xmt=AQF0R_wzO-SbGTvk002C4YnHrCVG-jvIMCgWHiT277ySiA",
@@ -1008,7 +1008,7 @@ TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI
     id: "item_031",
     creator: "@yuncih.guo",
     creatorUrl: "https://www.threads.com/@yuncih.guo",
-    types: ["扇子", "吊飾", "其他"],
+    types: ["扇子", "吊飾", "立牌", "其他"],
     title: "TWICE 大巨蛋應援交換文",
     postUrl:
       "https://www.threads.com/@yuncih.guo/post/DVRMiOZE2Oo?xmt=AQF0HNP3o39roalQ9YI9RpLzOk7a0XdPv4wBX9G_7Grl3w",

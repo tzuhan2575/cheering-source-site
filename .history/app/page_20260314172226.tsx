@@ -7,7 +7,10 @@ import { searchBestMatch } from "../lib/image-search";
 import ItemCard from "../components/ItemCard";
 
 export default function Home() {
-  const [selectedType, setSelectedType] = useState<ItemType>("全部");
+  const filteredItems =
+    selectedType === "全部"
+      ? items
+      : items.filter((item) => item.types.includes(selectedType));
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [selectedFileName, setSelectedFileName] = useState("");
   const [previewUrl, setPreviewUrl] = useState("");

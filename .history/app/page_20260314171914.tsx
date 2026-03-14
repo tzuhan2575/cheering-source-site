@@ -2,12 +2,25 @@
 
 import Link from "next/link";
 import { ChangeEvent, useMemo, useState } from "react";
-import { items, TYPE_OPTIONS, type ItemType } from "../data/items";
+import { items, TYPE_OPTIONS } from "../data/items";
 import { searchBestMatch } from "../lib/image-search";
 import ItemCard from "../components/ItemCard";
 
+const typeOptions = [
+  "全部",
+  "貼紙",
+  "胸章",
+  "鑰匙圈",
+  "杯套",
+  "透卡",
+  "鈔票",
+  "書籤",
+  "原子筆",
+  "其他",
+];
+
 export default function Home() {
-  const [selectedType, setSelectedType] = useState<ItemType>("全部");
+  const [selectedType, setSelectedType] = useState("全部");
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [selectedFileName, setSelectedFileName] = useState("");
   const [previewUrl, setPreviewUrl] = useState("");
@@ -103,8 +116,7 @@ export default function Home() {
             本平台資料仍在持續補充中，若目前尚未找到相關應援物，可晚些再回來查看。
           </p>
           <p className="mt-2">
-            本平台僅整理 TWICE《THIS IS
-            FOR》台北場相關應援資訊，預計使用至本次台北場活動結束。
+            本平台僅整理 TWICE《THIS IS FOR》台北場相關應援資訊，預計使用至本次台北場活動結束。
           </p>
         </div>
 
@@ -161,9 +173,7 @@ export default function Home() {
 
                   <p>
                     搜尋範圍：
-                    <span className="ml-1 text-neutral-900">
-                      平台內已收錄資料
-                    </span>
+                    <span className="ml-1 text-neutral-900">平台內已收錄資料</span>
                   </p>
                 </div>
 
@@ -192,9 +202,7 @@ export default function Home() {
                     <div className="flex items-start gap-3">
                       <div className="mt-0.5 h-5 w-5 animate-spin rounded-full border-2 border-neutral-300 border-t-black" />
                       <div>
-                        <p className="text-sm font-medium text-neutral-900">
-                          搜尋中
-                        </p>
+                        <p className="text-sm font-medium text-neutral-900">搜尋中</p>
                         <p className="mt-1 text-sm leading-6 text-neutral-600">
                           正在分析上傳圖片，並與平台內已收錄資料比對，請稍候…
                         </p>
@@ -206,9 +214,7 @@ export default function Home() {
                 {searchError && (
                   <div className="mt-4 rounded-2xl border border-red-200 bg-red-50 p-4">
                     <p className="text-sm font-medium text-red-700">搜尋失敗</p>
-                    <p className="mt-1 text-sm leading-6 text-red-600">
-                      {searchError}
-                    </p>
+                    <p className="mt-1 text-sm leading-6 text-red-600">{searchError}</p>
                   </div>
                 )}
               </div>
@@ -237,7 +243,7 @@ export default function Home() {
 
         <div className="mt-8">
           <div className="flex flex-wrap gap-3">
-            {TYPE_OPTIONS.map((type) => (
+            {typeOptions.map((type) => (
               <button
                 key={type}
                 type="button"

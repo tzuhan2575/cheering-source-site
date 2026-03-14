@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import { ChangeEvent, useMemo, useState } from "react";
-import { items, TYPE_OPTIONS, type ItemType } from "../data/items";
+import { items, TYPE_OPTIONS } from "../data/items";
 import { searchBestMatch } from "../lib/image-search";
 import ItemCard from "../components/ItemCard";
 
 export default function Home() {
-  const [selectedType, setSelectedType] = useState<ItemType>("全部");
+  const [selectedType, setSelectedType] = useState("全部");
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [selectedFileName, setSelectedFileName] = useState("");
   const [previewUrl, setPreviewUrl] = useState("");
