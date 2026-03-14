@@ -1852,7 +1852,7 @@ b) 小卡 + 手幅
     id: "item_060",
     creator: "@yun.yun1020",
     creatorUrl: "https://www.threads.com/@yun.yun1020",
-    types: ["吊飾", "其他"],
+    types: ["髮夾", "吊飾", "原子筆", "其他"],
     title: "最終版應援物公開｜大頭寶寶髮夾與兔兔吊飾",
     postUrl:
       "https://www.threads.com/@yun.yun1020/post/DV0oJToCT_v?xmt=AQF03XIyt5vwzuRDEM_5wk_uFpCMijR9U203NwFqmXSvUA",
@@ -1995,34 +1995,5 @@ MISAMO 光柵卡（跟 part 1 一樣）
       "/item_063_09.jpeg",
       "/item_063_10.jpeg",
     ],
-  },
-  {
-    id: "item_064",
-    creator: "@molimoliwara",
-    creatorUrl: "https://www.threads.com/@molimoliwara",
-    types: ["吊飾"],
-    title: "TWICE THIS IS FOR 台北場｜鍵帽鑰匙圈應援發放",
-    postUrl:
-      "https://www.threads.com/@molimoliwara/post/DUC0UNHkh8H?xmt=AQF0jMshs_tO6gm11-Y2Pfc-XT0E6PPNQMKjYd6hPryCLg",
-    postContent: `TWICE THIS IS FOR 台北場 鍵帽鑰匙圈應援發放
-
-大家好！這裡是森森。
-TWICE 即將在台北大巨蛋舉辦三場演唱會！
-這次的應援物是以 10 週年 LOVELY 為發想的鍵帽鑰匙圈，頭上頂著代表台灣的珍奶圖案。
-
-這次除了鍵帽鑰匙圈外，也有協助辦花店應援，希望大家有空來看看。
-
-應援資訊：
-演唱會日期｜2026/03/20、03/21、03/22
-應援發放地點｜當天 IG 限動發佈
-發放數量｜每日 30 份（共 3 天）
-
-領取條件｜
-1. 出示本篇貼文（手機出示或截圖皆可）
-2. 持當日演唱會門票
-
-花店應援｜
-@once.spark_twice.bloom`,
-    images: ["/item_064_01.jpeg"],
   },
 ];
