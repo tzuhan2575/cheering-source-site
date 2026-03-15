@@ -1,20 +1,13 @@
 import Link from "next/link";
-import { items, type Item } from "../../../data/items";
+import { items } from "../../../data/items";
 
 type PageProps = {
   params: Promise<{ id: string }>;
-  searchParams?: Promise<{ from?: string }>;
 };
 
-export default async function ItemDetailPage({
-  params,
-  searchParams,
-}: PageProps) {
+export default async function ItemDetailPage({ params }: PageProps) {
   const { id } = await params;
-  const resolvedSearchParams = searchParams ? await searchParams : {};
-  const backHref = resolvedSearchParams?.from || "/";
-
-  const item: Item | undefined = items.find((entry) => entry.id === id);
+  const item = items.find((entry: { id: string }) => entry.id === id);
 
   if (!item) {
     return (
@@ -22,10 +15,7 @@ export default async function ItemDetailPage({
         <div className="mx-auto max-w-3xl rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
           <h1 className="text-2xl font-bold text-neutral-900">找不到資料</h1>
           <p className="mt-3 text-neutral-600">這筆應援物資料不存在。</p>
-          <Link
-            href={backHref}
-            className="mt-6 inline-block text-sm text-blue-600"
-          >
+          <Link href="/" className="mt-6 inline-block text-sm text-blue-600">
             返回首頁
           </Link>
         </div>
@@ -54,9 +44,9 @@ export default async function ItemDetailPage({
             ))}
           </div>
 
-          <div className="mb-8 mt-5">
+          <div className="mt-5 mb-8">
             <Link
-              href={backHref}
+              href="/"
               className="inline-flex rounded-xl border border-neutral-300 bg-white px-4 py-2 text-sm text-neutral-700 transition hover:border-neutral-400"
             >
               返回首頁
@@ -89,7 +79,7 @@ export default async function ItemDetailPage({
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
-            {item.images.map((image, index) => (
+            {item.images.map((image: string, index: number) => (
               <div
                 key={image}
                 className="overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-100"
