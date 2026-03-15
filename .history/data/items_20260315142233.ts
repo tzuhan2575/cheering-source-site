@@ -2107,7 +2107,7 @@ TWICE 即將在台北大巨蛋舉辦三場演唱會！
     id: "item_067",
     creator: "@820sjrrk",
     creatorUrl: "https://www.threads.com/@820sjrrk",
-    types: [ "鑰匙圈", "其他"],
+    types: ["手機支架", "鑰匙圈", "其他"],
     title: "TWICE THIS IS FOR 臺北場｜手機支架、PP夾、壓克力鑰匙圈",
     postUrl:
       "https://www.threads.com/@820sjrrk/post/DVi1Bk8E6D8?xmt=AQF0SckRipXxQl4l_kyQV3ouUru3YLv6W_jwXVWsxy97rA",
