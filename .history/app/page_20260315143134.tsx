@@ -64,7 +64,7 @@ export default function Home() {
 
   const totalPages = Math.max(
     1,
-    Math.ceil(filteredItems.length / ITEMS_PER_PAGE),
+    Math.ceil(filteredItems.length / ITEMS_PER_PAGE)
   );
 
   const paginatedItems = useMemo(() => {
@@ -211,7 +211,7 @@ export default function Home() {
         >
           {page}
         </button>
-      ),
+      )
     );
   };
 
@@ -231,8 +231,7 @@ export default function Home() {
               協助整理演唱會應援物資訊，並提供平台內部以圖搜圖功能，方便查找原始發文與創作者。
             </p>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-neutral-600">
-              如果你有看到尚未收錄的台北場應援資訊，也歡迎協助補充，讓更多 ONCE
-              能更快找到原始發文與創作者資訊。
+              如果你有看到尚未收錄的台北場應援資訊，也歡迎協助補充，讓更多 ONCE 能更快找到原始發文與創作者資訊。
             </p>
           </div>
 
@@ -250,13 +249,13 @@ export default function Home() {
             本平台資料仍在持續補充中，若目前尚未找到相關應援物，可晚些再回來查看。
           </p>
           <p className="mt-2">
-            本平台僅整理 TWICE《THIS IS
-            FOR》台北場相關應援資訊，預計使用至本次台北場活動結束。
+            本平台僅整理 TWICE《THIS IS FOR》台北場相關應援資訊，預計使用至本次台北場活動結束。
           </p>
           <p className="mt-2">
-            若在 Threads 或 IG
-            內建瀏覽器中開啟時出現黑畫面、卡住或其他異常，建議改用 Safari 或
-            Chrome 開啟。
+            若在 Threads 或 IG 內建瀏覽器中開啟時出現黑畫面、卡住或其他異常，建議改用 Safari 或 Chrome 開啟。
+          </p>
+          <p className="mt-2">
+            手機裝置首次使用以圖搜圖時，若頁面出現異常，建議重新整理一次後再試。
           </p>
         </div>
 
@@ -276,9 +275,7 @@ export default function Home() {
                     className="max-h-[320px] rounded-xl object-contain"
                   />
                 ) : (
-                  <p className="text-sm text-neutral-400">
-                    尚未選擇圖片，請先上傳
-                  </p>
+                  <p className="text-sm text-neutral-400">尚未選擇圖片，請先上傳</p>
                 )}
               </div>
 
@@ -288,9 +285,7 @@ export default function Home() {
                 <div className="mt-4 space-y-3 text-sm text-neutral-600">
                   <div>
                     <p className="font-medium text-neutral-800">已選擇圖片：</p>
-                    <p className="mt-1 break-all">
-                      {selectedFileName || "尚未選擇"}
-                    </p>
+                    <p className="mt-1 break-all">{selectedFileName || "尚未選擇"}</p>
                   </div>
 
                   <div>
@@ -320,8 +315,8 @@ export default function Home() {
                     {isMobileDevice
                       ? "手機版暫不開放搜圖"
                       : isSearching
-                        ? "搜尋中..."
-                        : "開始搜尋"}
+                      ? "搜尋中..."
+                      : "開始搜尋"}
                   </button>
                 </div>
 
@@ -361,8 +356,7 @@ export default function Home() {
         <div className="mt-8 rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm">
           <h2 className="text-xl font-semibold text-neutral-900">文字搜尋</h2>
           <p className="mt-2 text-sm leading-6 text-neutral-600">
-            可搜尋創作者帳號或應援物標題，例如 creator
-            名稱、帳號關鍵字或應援名稱。
+            可搜尋創作者帳號或應援物標題，例如 creator 名稱、帳號關鍵字或應援名稱。
           </p>
 
           <div className="mt-4">
@@ -394,7 +388,9 @@ export default function Home() {
         </div>
 
         <div className="mt-4 flex flex-col gap-2 text-sm text-neutral-500 sm:flex-row sm:items-center sm:justify-between">
-          <p>目前顯示 {filteredItems.length} 筆資料</p>
+          <p>
+            目前顯示 {filteredItems.length} 筆資料
+          </p>
           <p>
             第 {currentPage} / {totalPages} 頁
           </p>
