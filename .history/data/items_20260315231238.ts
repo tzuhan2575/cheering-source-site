@@ -3767,7 +3767,7 @@ X @/TWICE_EVE`,
     id: "item_122",
     creator: "@cubmumu",
     creatorUrl: "https://www.threads.com/@cubmumu",
-    types: ["其他"],
+    types: ["原子筆"],
     title: "台北場小小應援｜胖胖筆",
     postUrl:
       "https://www.threads.com/@cubmumu/post/DV58qWelNJt?xmt=AQF0xsvSLO7POzXrmR3xdhuXa5M4V9-zEY5Xo_ErkZbJKw",
