@@ -3488,14 +3488,14 @@ MiSAMO
     ],
   },
   {
-    id: "item_112",
-    creator: "@orangeju2002",
-    creatorUrl: "https://www.threads.com/@orangeju2002",
-    types: ["貼紙"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI PART 1｜藝術家彩貼紙",
-    postUrl:
-      "https://www.threads.com/@orangeju2002/post/DV21nI0k0Kd?xmt=AQF0MW0Onf4C9iWA2xWiGJqGzkH7GgZncz8XJv970qQz2w",
-    postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI PART 1
+  id: "item_112",
+  creator: "@orangeju2002",
+  creatorUrl: "https://www.threads.com/@orangeju2002",
+  types: ["貼紙"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI PART 1｜藝術家彩貼紙",
+  postUrl:
+    "https://www.threads.com/@orangeju2002/post/DV21nI0k0Kd?xmt=AQF0MW0Onf4C9iWA2xWiGJqGzkH7GgZncz8XJv970qQz2w",
+  postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI PART 1
 
 高雄場彩的應援貼紙大受好評，這次重新製作了同款貼紙。
 會隨機發給路上遇到的彩擔，有興趣交換的萬斯也可以留言，期待跟大家見面。
@@ -3511,17 +3511,20 @@ MiSAMO
 數量有限，發完為止
 每款樣式不同，隨機發送
 貼紙不是防水材質。`,
-    images: ["/item_112_01.jpeg", "/item_112_02.jpeg"],
-  },
-  {
-    id: "item_113",
-    creator: "@412_33",
-    creatorUrl: "https://www.threads.com/@412_33",
-    types: ["其他"],
-    title: "TWICE 六巡應援公開｜黑色不織布提袋",
-    postUrl:
-      "https://www.threads.com/@412_33/post/DVvbOTelJ3V?xmt=AQF0l25lv2CTSTsZ6kMRTlrNhUFuQW8Q0-ypvjdyXJVSeA",
-    postContent: `TWICE 六巡應援公開
+  images: [
+    "/item_112_01.jpeg",
+    "/item_112_02.jpeg",
+  ],
+},
+{
+  id: "item_113",
+  creator: "@412_33",
+  creatorUrl: "https://www.threads.com/@412_33",
+  types: ["其他"],
+  title: "TWICE 六巡應援公開｜黑色不織布提袋",
+  postUrl:
+    "https://www.threads.com/@412_33/post/DVvbOTelJ3V?xmt=AQF0l25lv2CTSTsZ6kMRTlrNhUFuQW8Q0-ypvjdyXJVSeA",
+  postContent: `TWICE 六巡應援公開
 
 這次準備的是黑色不織布提袋，希望可以讓 ONCE 們裝滿應援物。
 
@@ -3541,111 +3544,6 @@ MiSAMO
 領取條件：
 只要看得出來是 ONCE 就可以領取。
 數量有限，發完為止。`,
-    images: ["/item_113_01.jpeg"],
-  },
-  {
-    id: "item_114",
-    creator: "@yun_4.18",
-    creatorUrl: "https://www.threads.com/@yun_4.18",
-    types: ["吊飾", "小卡", "貼紙", "其他"],
-    title: "TWICE THIS IS FOR WORLD TOUR in TAIPEI｜登山扣、壓克力吊飾與光柵卡",
-    postUrl:
-      "https://www.threads.com/@yun_4.18/post/DU8qDzrkiHK?xmt=AQF0OPk7-JnPs6m1alKgd4wQy4uojOUpUlhXwpoj86o7cw",
-    postContent: `TWICE <THIS IS FOR> WORLD TOUR in TAIPEI
-
-終於把應援物生出來了！歡迎大家找我交換或領取，但會先以交換優先。
-
-應援物介紹：
-登山扣 11 種
-壓克力吊飾 3 種
-MISAMO 光柵卡
-隨機附上轉印貼紙
-
-發放時間與地點：
-3/21、3/22 大概 1 點會到
-3/20 少量交換
-我會到處走動
-
-交換方法：
-一張光柵卡 + 任意一款壓克力（可挑選）
-
-領取條件：
-光柵卡或登山扣擇 1
-需要有成員泡泡 ≥ 100 天，或身上官方周邊 ≥ 3 樣
-不喜歡可以還給我，不要亂丟
-禁止轉售，一人限領一個。`,
-    images: ["/item_114_01.jpeg", "/item_114_02.jpeg", "/item_114_03.jpeg"],
-  },
-  {
-    id: "item_115",
-    creator: "@cha.office",
-    creatorUrl: "https://www.threads.com/@cha.office",
-    types: ["手幅"],
-    title: "TWICE THIS IS FOR｜守護愛情的禁衛軍應援手幅",
-    postUrl:
-      "https://www.threads.com/@cha.office/post/DUf8vWDkWRI?xmt=AQF0q8lju25klweesY4jUJLAucZ1mbyY0l37O_0Bdf2F3g",
-    postContent: `TWICE THIS IS FOR 守護愛情的禁衛軍
-
-臺北應援手幅發放
-主題：紗瑜 / SATZU
-
-發放時間及地點當日會再發布公告
-數量不多，發完為止
-材質：防水不織布
-
-Special Thanks：
-X @/TWICE_EVE`,
-    images: ["/item_115_01.jpeg"],
-  },
-  {
-    id: "item_116",
-    creator: "@jeongtzu_taiwan",
-    creatorUrl: "https://www.threads.com/@jeongtzu_taiwan",
-    types: ["手幅"],
-    title: "TWICE THIS IS FOR IN TAIPEI 應援發放｜鯨魚PVC手幅",
-    postUrl:
-      "https://www.threads.com/@jeongtzu_taiwan/post/DV5JoC_AfoD?xmt=AQF0feKiywlTbVaa623p0nKtQH7LhatxHPDLlKxRPdwAZQ",
-    postContent: `TWICE THIS IS FOR IN TAIPEI 應援發放
-
-感謝 X 帳號 @TwinkleFairy614 授權照片使用，
-也感謝 @pig__.07 無酬勞支援畫稿。
-
-發放日期：3/22
-詳細時間地點在前一天公布
-
-發放物品：
-鯨魚 PVC 手幅，約 85 個
-
-領取條件：
-出示周邊即可領取一個
-
-注意事項：
-禁止轉售／販賣
-不接受代領
-每人限領一個
-
-終於做到心心念念的鯨魚手幅，請大家多多愛護我們小魚苗。`,
-    images: [
-      "/item_116_01.jpeg",
-      "/item_116_02.jpeg",
-      "/item_116_03.jpeg",
-      "/item_116_04.jpeg",
-    ],
-  },
-  {
-    id: "item_117",
-    creator: "@412_33",
-    creatorUrl: "https://www.threads.com/@412_33",
-    types: ["其他"],
-    title: "TWICE 六巡應援｜不織布提袋尺寸參考",
-    postUrl:
-      "https://www.threads.com/@412_33/post/DV5mnO6kuDn?xmt=AQF0dwZoT4BKsGRONiyq-LAonqhXPc_YRF5y-t0f2QAGDA",
-    postContent: `可以參考一下大小，今日下單大概週三就能收到。
-賣貨便有免運券可以領，大家趕快搶。
-
-希望大家能把袋子裝滿滿，開心看演唱會！
-
-現場交換可以私訊我約時間：3/21、3/22。`,
-    images: ["/item_117_01.jpeg", "/item_117_02.jpeg", "/item_117_03.jpeg"],
-  },
+  images: ["/item_113_01.jpeg"],
+},
 ];
