@@ -3176,37 +3176,4 @@ TWICE 台北大巨蛋 3/22 應援！
 禁止轉售。`,
     images: ["/item_099_01.jpeg", "/item_099_02.jpeg"],
   },
-  {
-    id: "item_100",
-    creator: "@y.hh_7.24",
-    creatorUrl: "https://www.threads.com/@y.hh_7.24",
-    types: ["小卡"],
-    title: "TWICE 台北場應援｜發泡卡套",
-    postUrl:
-      "https://www.threads.com/@y.hh_7.24/post/DVMGyjEkmFh?xmt=AQF021fZJBGoD8LHxgv40oaQhnhFKTTsHhF3s4vFHYcCZg",
-    postContent: `萬斯～泥悶準備好再次進場看 TWICE 了嗎？
-時隔四個月要再次回到子瑜的家鄉了。
-
-原本不製作應援了，但我的心過不去，所以還是來發個小小的應援。
-
-以下幾點再幫我留意一下：
-1. 發放地點：臺北大巨蛋 Taipei Dome
-2. 發放時間：3/21、3/22 中午過後（詳細地點以限時動態為主）
-3. 禁止代排、代領、插隊、轉售
-4. 務必追蹤 @y.hh_7.24 與 twicetagram
-5. 應援都是站主自行設計，勿抄襲及改編
-6. 請帶著一顆愛 TWICE 的心來參加本次活動
-
-發放應援物如下：
-3/21-3/22 發泡卡套，2 天各 100 份，共 200 份
-
-感謝各位 ONCE 的參與！演唱會見嘍。
-本站保留活動異動之權利。`,
-    images: [
-      "/item_100_01.jpeg",
-      "/item_100_02.jpeg",
-      "/item_100_03.jpeg",
-      "/item_100_04.jpeg",
-    ],
-  },
 ];

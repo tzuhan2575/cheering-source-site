@@ -2647,14 +2647,14 @@ set 內容物：
     images: ["/item_081_01.jpeg", "/item_081_02.jpeg", "/item_081_03.jpeg"],
   },
   {
-    id: "item_082",
-    creator: "@wang890215",
-    creatorUrl: "https://www.threads.com/@wang890215",
-    types: ["手機支架", "吊飾", "貼紙", "其他"],
-    title: "TWICE 多功能支架、吊飾與多賢貼紙／照片",
-    postUrl:
-      "https://www.threads.com/@wang890215/post/DV3TmoSievu?xmt=AQF05FCw7SCbomtMJ2o2XYIlmTj7Spy-7sjow84GW__oMA",
-    postContent: `嗚呼！終於換我來發佈應援物發放的文章啦，這次也準備了小禮物給大家。
+  id: "item_082",
+  creator: "@wang890215",
+  creatorUrl: "https://www.threads.com/@wang890215",
+  types: ["手機支架", "吊飾", "貼紙", "其他"],
+  title: "TWICE 多功能支架、吊飾與多賢貼紙／照片",
+  postUrl:
+    "https://www.threads.com/@wang890215/post/DV3TmoSievu?xmt=AQF05FCw7SCbomtMJ2o2XYIlmTj7Spy-7sjow84GW__oMA",
+  postContent: `嗚呼！終於換我來發佈應援物發放的文章啦，這次也準備了小禮物給大家。
 
 1. 撐住你每個美好時刻－TWICE 多功能支架
 大 LOGO 配上全員照片的支架，實用又好看。
@@ -2674,23 +2674,23 @@ set 內容物：
 發放地點到時會再公布，也可能會一直遊走。
 想交換的 ONCE 可以留言，若有興趣交換會再私訊。
 版主有權利視情況調整發放規定。`,
-    images: [
-      "/item_082_01.jpeg",
-      "/item_082_02.jpeg",
-      "/item_082_03.jpeg",
-      "/item_082_04.jpeg",
-      "/item_082_05.jpeg",
-    ],
-  },
-  {
-    id: "item_083",
-    creator: "@asb.bl",
-    creatorUrl: "https://www.threads.com/@asb.bl",
-    types: ["票卡", "撕拉片", "貼紙", "其他"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜應援 set",
-    postUrl:
-      "https://www.threads.com/@asb.bl/post/DTp2pg8ATXn?xmt=AQF0iiGLRvjl4DxudE7pa3sLZaAtt1IjZoyE_o0JbEdlSw",
-    postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI
+  images: [
+    "/item_082_01.jpeg",
+    "/item_082_02.jpeg",
+    "/item_082_03.jpeg",
+    "/item_082_04.jpeg",
+    "/item_082_05.jpeg",
+  ],
+},
+{
+  id: "item_083",
+  creator: "@asb.bl",
+  creatorUrl: "https://www.threads.com/@asb.bl",
+  types: ["票卡", "撕拉片", "貼紙", "其他"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜應援 set",
+  postUrl:
+    "https://www.threads.com/@asb.bl/post/DTp2pg8ATXn?xmt=AQF0iiGLRvjl4DxudE7pa3sLZaAtt1IjZoyE_o0JbEdlSw",
+  postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI
 
 大家好～應援物實體正式出爐！
 領取規則請詳閱留言處。
@@ -2710,17 +2710,17 @@ set 內容物：
 撕拉片 × 1
 貼紙 × 2
 TZUVELY 小梳子 × 1`,
-    images: ["/item_083_01.jpeg"],
-  },
-  {
-    id: "item_084",
-    creator: "@aboutzu0422",
-    creatorUrl: "https://www.threads.com/@aboutzu0422",
-    types: ["其他"],
-    title: "TWICE 六巡台北場免費應援｜Switch LOVELY 搖桿套",
-    postUrl:
-      "https://www.threads.com/@aboutzu0422/post/DVqGxXxifWT?xmt=AQF0VVrNZeNaPtuBZLGeoQlmWFY1ri6R046NIkLA8Ef0eg",
-    postContent: `TWICE 六巡台北場免費應援
+  images: ["/item_083_01.jpeg"],
+},
+{
+  id: "item_084",
+  creator: "@aboutzu0422",
+  creatorUrl: "https://www.threads.com/@aboutzu0422",
+  types: ["其他"],
+  title: "TWICE 六巡台北場免費應援｜Switch LOVELY 搖桿套",
+  postUrl:
+    "https://www.threads.com/@aboutzu0422/post/DVqGxXxifWT?xmt=AQF0VVrNZeNaPtuBZLGeoQlmWFY1ri6R046NIkLA8Ef0eg",
+  postContent: `TWICE 六巡台北場免費應援
 第十四彈：Switch LOVELY 搖桿套
 
 一直很想要弄一個 LOVELY 屬性的搖桿套，這樣邊玩就可以看到可愛的寶寶，然後配了我理想中的 CP。
@@ -2736,24 +2736,24 @@ TZUVELY 小梳子 × 1`,
 
 歡迎幫我文章底下留言、轉發貼文！
 領取可以幫我拍照分享，我會很感動。`,
-    images: [
-      "/item_084_01.jpeg",
-      "/item_084_02.jpeg",
-      "/item_084_03.jpeg",
-      "/item_084_04.jpeg",
-      "/item_084_05.jpeg",
-      "/item_084_06.jpeg",
-    ],
-  },
-  {
-    id: "item_085",
-    creator: "@aboutzu0422",
-    creatorUrl: "https://www.threads.com/@aboutzu0422",
-    types: ["票夾"],
-    title: "TWICE 六巡台北場免費應援｜ibon 硬卡套",
-    postUrl:
-      "https://www.threads.com/@aboutzu0422/post/DUSglgKEtaR?xmt=AQF0Lar5zaylck0d-6qibac2iihUQb3135vcbi5HmWfgog",
-    postContent: `TWICE 六巡台北場免費應援
+  images: [
+    "/item_084_01.jpeg",
+    "/item_084_02.jpeg",
+    "/item_084_03.jpeg",
+    "/item_084_04.jpeg",
+    "/item_084_05.jpeg",
+    "/item_084_06.jpeg",
+  ],
+},
+{
+  id: "item_085",
+  creator: "@aboutzu0422",
+  creatorUrl: "https://www.threads.com/@aboutzu0422",
+  types: ["票夾"],
+  title: "TWICE 六巡台北場免費應援｜ibon 硬卡套",
+  postUrl:
+    "https://www.threads.com/@aboutzu0422/post/DUSglgKEtaR?xmt=AQF0Lar5zaylck0d-6qibac2iihUQb3135vcbi5HmWfgog",
+  postContent: `TWICE 六巡台北場免費應援
 TWICE ibon 硬卡套
 
 台北場應援正式參戰，這次也規劃了不少應援。
@@ -2767,17 +2767,20 @@ TWICE ibon 硬卡套
 
 歡迎幫我文章底下留言、轉發貼文！
 領取可以幫我拍照打卡分享，我會很感動。`,
-    images: ["/item_085_01.jpeg", "/item_085_02.jpeg"],
-  },
-  {
-    id: "item_086",
-    creator: "@sana_w1129",
-    creatorUrl: "https://www.threads.com/@sana_w1129",
-    types: ["其他", "書籤", "貼紙"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜台北大巨蛋應援物最終一覽",
-    postUrl:
-      "https://www.threads.com/@sana_w1129/post/DVQ8-pmE3S8?xmt=AQF0mWyVOdNyC00jl_bhWq02EheFhYqB0PKCFK_D6o_wOw",
-    postContent: `TWICE＜THIS IS FOR＞WORLD TOUR IN TAIPEI
+  images: [
+    "/item_085_01.jpeg",
+    "/item_085_02.jpeg",
+  ],
+},
+{
+  id: "item_086",
+  creator: "@sana_w1129",
+  creatorUrl: "https://www.threads.com/@sana_w1129",
+  types: ["其他", "書籤", "貼紙"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜台北大巨蛋應援物最終一覽",
+  postUrl:
+    "https://www.threads.com/@sana_w1129/post/DVQ8-pmE3S8?xmt=AQF0mWyVOdNyC00jl_bhWq02EheFhYqB0PKCFK_D6o_wOw",
+  postContent: `TWICE＜THIS IS FOR＞WORLD TOUR IN TAIPEI
 台北大巨蛋應援物最終一覽
 
 1. 拉霸機玩具 300 個
@@ -2799,33 +2802,33 @@ THIS IS FOR 款式 75 份
 ENEMY 款式 75 份
 
 款式部分將會以隨機為主，現場狀況良好才可挑選款式。`,
-    images: [
-      "/item_086_01.jpeg",
-      "/item_086_02.jpeg",
-      "/item_086_03.jpeg",
-      "/item_086_04.jpeg",
-      "/item_086_05.jpeg",
-      "/item_086_06.jpeg",
-      "/item_086_07.jpeg",
-      "/item_086_08.jpeg",
-      "/item_086_09.jpeg",
-      "/item_086_10.jpeg",
-      "/item_086_11.jpeg",
-      "/item_086_12.jpeg",
-      "/item_086_13.jpeg",
-      "/item_086_14.jpeg",
-      "/item_086_15.jpeg",
-    ],
-  },
-  {
-    id: "item_087",
-    creator: "@tyolivia716",
-    creatorUrl: "https://www.threads.com/@tyolivia716",
-    types: ["其他", "貼紙"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜有票御守、娃帽與貼紙",
-    postUrl:
-      "https://www.threads.com/@tyolivia716/post/DV0u7ILiYR5?xmt=AQF0IYJQCQ2Pqihsvk9gUtYrmi1ouCw7JMZ80je7FT3d5A",
-    postContent: `TWICE＜THIS IS FOR＞WORLD TOUR IN TAIPEI 應援物發放／交換
+  images: [
+    "/item_086_01.jpeg",
+    "/item_086_02.jpeg",
+    "/item_086_03.jpeg",
+    "/item_086_04.jpeg",
+    "/item_086_05.jpeg",
+    "/item_086_06.jpeg",
+    "/item_086_07.jpeg",
+    "/item_086_08.jpeg",
+    "/item_086_09.jpeg",
+    "/item_086_10.jpeg",
+    "/item_086_11.jpeg",
+    "/item_086_12.jpeg",
+    "/item_086_13.jpeg",
+    "/item_086_14.jpeg",
+    "/item_086_15.jpeg",
+  ],
+},
+{
+  id: "item_087",
+  creator: "@tyolivia716",
+  creatorUrl: "https://www.threads.com/@tyolivia716",
+  types: ["其他", "貼紙"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜有票御守、娃帽與貼紙",
+  postUrl:
+    "https://www.threads.com/@tyolivia716/post/DV0u7ILiYR5?xmt=AQF0IYJQCQ2Pqihsvk9gUtYrmi1ouCw7JMZ80je7FT3d5A",
+  postContent: `TWICE＜THIS IS FOR＞WORLD TOUR IN TAIPEI 應援物發放／交換
 
 應援物內容
 1. 샤샤샤有票御守 × 1 + 貼紙 × 1，每日五份
@@ -2838,17 +2841,20 @@ ENEMY 款式 75 份
 發放時間 / 地點：
 暫定 3/21-3/22 發放，也可能只發一天，時間地點待公布。
 份數少，歡迎找我交換。`,
-    images: ["/item_087_01.jpeg", "/item_087_02.jpeg"],
-  },
-  {
-    id: "item_088",
-    creator: "@iyngybu_",
-    creatorUrl: "https://www.threads.com/@iyngybu_",
-    types: ["其他"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN KAOHSIUNG TAIPEI｜糖果袋",
-    postUrl:
-      "https://www.threads.com/@iyngybu_/post/DU59aExD8Yx?xmt=AQF0VHNu8Ij_UxE75Wo6g3UjTvYtsu1psV5xI9CF4skV1g",
-    postContent: `TWICE <THIS IS FOR> WORLD TOUR IN KAOHSIUNG TAIPEI
+  images: [
+    "/item_087_01.jpeg",
+    "/item_087_02.jpeg",
+  ],
+},
+{
+  id: "item_088",
+  creator: "@iyngybu_",
+  creatorUrl: "https://www.threads.com/@iyngybu_",
+  types: ["其他"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN KAOHSIUNG TAIPEI｜糖果袋",
+  postUrl:
+    "https://www.threads.com/@iyngybu_/post/DU59aExD8Yx?xmt=AQF0VHNu8Ij_UxE75Wo6g3UjTvYtsu1psV5xI9CF4skV1g",
+  postContent: `TWICE <THIS IS FOR> WORLD TOUR IN KAOHSIUNG TAIPEI
 
 上一篇要交換的都登記完畢了。
 實體要等 3 月中才會出來，到時候會再發貼文。
@@ -2867,28 +2873,28 @@ ENEMY 款式 75 份
 
 領取條件：
 粉絲證明（手燈 / 正版周邊 / 泡泡 任一種皆可）`,
-    images: [
-      "/item_088_01.jpeg",
-      "/item_088_02.jpeg",
-      "/item_088_03.jpeg",
-      "/item_088_04.jpeg",
-      "/item_088_05.jpeg",
-      "/item_088_06.jpeg",
-      "/item_088_07.jpeg",
-      "/item_088_08.jpeg",
-      "/item_088_09.jpeg",
-      "/item_088_10.jpeg",
-    ],
-  },
-  {
-    id: "item_089",
-    creator: "@uuuuuuuuu__n",
-    creatorUrl: "https://www.threads.com/@uuuuuuuuu__n",
-    types: ["貼紙", "其他"],
-    title: "TWICE THIS IS FOR TAIPEI｜蛋糕叉與透明貼紙",
-    postUrl:
-      "https://www.threads.com/@uuuuuuuuu__n/post/DV41KDzEys-?xmt=AQF0ZAqrPKad6SGYd3fM-o9RB8MPyQcKfAS3EfNpBYrClQ",
-    postContent: `TWICE THIS IS FOR TAIPEI 免費應援發放
+  images: [
+    "/item_088_01.jpeg",
+    "/item_088_02.jpeg",
+    "/item_088_03.jpeg",
+    "/item_088_04.jpeg",
+    "/item_088_05.jpeg",
+    "/item_088_06.jpeg",
+    "/item_088_07.jpeg",
+    "/item_088_08.jpeg",
+    "/item_088_09.jpeg",
+    "/item_088_10.jpeg",
+  ],
+},
+{
+  id: "item_089",
+  creator: "@uuuuuuuuu__n",
+  creatorUrl: "https://www.threads.com/@uuuuuuuuu__n",
+  types: ["貼紙", "其他"],
+  title: "TWICE THIS IS FOR TAIPEI｜蛋糕叉與透明貼紙",
+  postUrl:
+    "https://www.threads.com/@uuuuuuuuu__n/post/DV41KDzEys-?xmt=AQF0ZAqrPKad6SGYd3fM-o9RB8MPyQcKfAS3EfNpBYrClQ",
+  postContent: `TWICE THIS IS FOR TAIPEI 免費應援發放
 
 1. 拉芙哩蛋糕叉（9 款擇 1）約 135 份
 領取條件：
@@ -2907,8 +2913,8 @@ ENEMY 款式 75 份
 
 希望可以真的喜歡，不遺棄它們。
 也請不要直接當作自己的應援去交換、轉售。`,
-    images: ["/item_089_01.jpeg"],
-  },
+  images: ["/item_089_01.jpeg"],
+},
   {
     id: "item_090",
     creator: "@__.ixytan",
@@ -3175,38 +3181,5 @@ TWICE 台北大巨蛋 3/22 應援！
 數量有限，照片是隨機的
 禁止轉售。`,
     images: ["/item_099_01.jpeg", "/item_099_02.jpeg"],
-  },
-  {
-    id: "item_100",
-    creator: "@y.hh_7.24",
-    creatorUrl: "https://www.threads.com/@y.hh_7.24",
-    types: ["小卡"],
-    title: "TWICE 台北場應援｜發泡卡套",
-    postUrl:
-      "https://www.threads.com/@y.hh_7.24/post/DVMGyjEkmFh?xmt=AQF021fZJBGoD8LHxgv40oaQhnhFKTTsHhF3s4vFHYcCZg",
-    postContent: `萬斯～泥悶準備好再次進場看 TWICE 了嗎？
-時隔四個月要再次回到子瑜的家鄉了。
-
-原本不製作應援了，但我的心過不去，所以還是來發個小小的應援。
-
-以下幾點再幫我留意一下：
-1. 發放地點：臺北大巨蛋 Taipei Dome
-2. 發放時間：3/21、3/22 中午過後（詳細地點以限時動態為主）
-3. 禁止代排、代領、插隊、轉售
-4. 務必追蹤 @y.hh_7.24 與 twicetagram
-5. 應援都是站主自行設計，勿抄襲及改編
-6. 請帶著一顆愛 TWICE 的心來參加本次活動
-
-發放應援物如下：
-3/21-3/22 發泡卡套，2 天各 100 份，共 200 份
-
-感謝各位 ONCE 的參與！演唱會見嘍。
-本站保留活動異動之權利。`,
-    images: [
-      "/item_100_01.jpeg",
-      "/item_100_02.jpeg",
-      "/item_100_03.jpeg",
-      "/item_100_04.jpeg",
-    ],
   },
 ];
