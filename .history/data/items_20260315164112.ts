@@ -3349,7 +3349,7 @@ CD 盒另有 NFC 功能，可自行設定喜歡的連結。`,
     id: "item_106",
     creator: "@lfyuuuu",
     creatorUrl: "https://www.threads.com/@lfyuuuu",
-    types: ["其他"],
+    types: ["杯套"],
     title: "TWICE 台北場應援（3/21）｜杯套",
     postUrl:
       "https://www.threads.com/@lfyuuuu/post/DV5HUjbkTK0?xmt=AQF049WDoKPMDG2hvlE-SO1CA7kdCSDTEm-WY87BlwQBaQ",
