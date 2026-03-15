@@ -4176,14 +4176,14 @@ Lovely 轉印貼
     images: ["/item_136_01.jpeg", "/item_136_02.jpeg"],
   },
   {
-    id: "item_137",
-    creator: "@yu._.tung0325",
-    creatorUrl: "https://www.threads.com/@yu._.tung0325",
-    types: ["徽章", "吊飾"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜徽章藥片",
-    postUrl:
-      "https://www.threads.com/@yu._.tung0325/post/DV5Hr2UkrY6?xmt=AQF0uJ07rX_rnN_hL-F4UAhW_LZO8PFrbDiAucsQMk_98A",
-    postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI
+  id: "item_137",
+  creator: "@yu._.tung0325",
+  creatorUrl: "https://www.threads.com/@yu._.tung0325",
+  types: ["徽章", "吊飾"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜徽章藥片",
+  postUrl:
+    "https://www.threads.com/@yu._.tung0325/post/DV5Hr2UkrY6?xmt=AQF0uJ07rX_rnN_hL-F4UAhW_LZO8PFrbDiAucsQMk_98A",
+  postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI
 
 哈囉大家，距離演唱會剩下短短幾天啦！
 帶著應援物要來分享給你們，最後會以夾鏈袋裝好的方式分發給大家。
@@ -4204,17 +4204,17 @@ Lovely 轉印貼
 注意事項：
 因為數量有限，每人限領 1 份，不可代領
 請勿將此應援禮進行販售。`,
-    images: ["/item_137_01.jpeg"],
-  },
-  {
-    id: "item_138",
-    creator: "@_chiao7o",
-    creatorUrl: "https://www.threads.com/@_chiao7o",
-    types: ["貼紙", "吊飾"],
-    title: "第一天與第三天應援｜貼紙與團體款吊飾",
-    postUrl:
-      "https://www.threads.com/@_chiao7o/post/DV5nI62Eyh5?xmt=AQF0IhxV9ycGAOAFpCH7ZRcfy9kmdfWxGVe3W5Wd_DTMHg",
-    postContent: `終於包裝完了！
+  images: ["/item_137_01.jpeg"],
+},
+{
+  id: "item_138",
+  creator: "@_chiao7o",
+  creatorUrl: "https://www.threads.com/@_chiao7o",
+  types: ["貼紙", "吊飾"],
+  title: "第一天與第三天應援｜貼紙與團體款吊飾",
+  postUrl:
+    "https://www.threads.com/@_chiao7o/post/DV5nI62Eyh5?xmt=AQF0IhxV9ycGAOAFpCH7ZRcfy9kmdfWxGVe3W5Wd_DTMHg",
+  postContent: `終於包裝完了！
 
 會去第一天跟第三天，因為突然有第一天的票，所以決定第一天也拿一些去發。
 
@@ -4223,22 +4223,22 @@ Lovely 轉印貼
 吊飾是團體款
 要領取的人擇一領取
 有登記交換的是貼紙跟吊飾一起交換。`,
-    images: [
-      "/item_138_01.jpeg",
-      "/item_138_02.jpeg",
-      "/item_138_03.jpeg",
-      "/item_138_04.jpeg",
-    ],
-  },
-  {
-    id: "item_139",
-    creator: "@wang11230409",
-    creatorUrl: "https://www.threads.com/@wang11230409",
-    types: ["其他"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜321燒酒杯應援",
-    postUrl:
-      "https://www.threads.com/@wang11230409/post/DVyQUx5FIvv?xmt=AQF0Kw8F6S0HgpgbHkL0he7PSugd2ouRl72l4qVxgBYw-g",
-    postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI
+  images: [
+    "/item_138_01.jpeg",
+    "/item_138_02.jpeg",
+    "/item_138_03.jpeg",
+    "/item_138_04.jpeg",
+  ],
+},
+{
+  id: "item_139",
+  creator: "@wang11230409",
+  creatorUrl: "https://www.threads.com/@wang11230409",
+  types: ["其他"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜321燒酒杯應援",
+  postUrl:
+    "https://www.threads.com/@wang11230409/post/DVyQUx5FIvv?xmt=AQF0Kw8F6S0HgpgbHkL0he7PSugd2ouRl72l4qVxgBYw-g",
+  postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI
 
 321 燒酒杯應援，終於壓線完成了。
 
@@ -4249,17 +4249,17 @@ Lovely 轉印貼
 交換須知：
 暫不開放紙類交換
 因燒酒杯為玻璃製品不方便寄送，當天沒有交換到的就不會保留，線上交換會當場發完。`,
-    images: ["/item_139_01.jpeg"],
-  },
-  {
-    id: "item_140",
-    creator: "@wu_youxiu",
-    creatorUrl: "https://www.threads.com/@wu_youxiu",
-    types: ["透卡", "其他"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜透卡與反轉膠片",
-    postUrl:
-      "https://www.threads.com/@wu_youxiu/post/DV54tM1GrEG?xmt=AQF0VtJol7wPSdPPyUod_pw7TGOBlqkmNZCtl_Cd1jnh3w",
-    postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI 免費應援發放
+  images: ["/item_139_01.jpeg"],
+},
+{
+  id: "item_140",
+  creator: "@wu_youxiu",
+  creatorUrl: "https://www.threads.com/@wu_youxiu",
+  types: ["透卡", "其他"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜透卡與反轉膠片",
+  postUrl:
+    "https://www.threads.com/@wu_youxiu/post/DV54tM1GrEG?xmt=AQF0VtJol7wPSdPPyUod_pw7TGOBlqkmNZCtl_Cd1jnh3w",
+  postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI 免費應援發放
 
 透卡：
 兩種各 50 張
@@ -4286,29 +4286,35 @@ TWICE 官方周邊
 一人一份
 符合規則可拿膠片跟透卡各一
 禁止代領、轉售、丟棄。`,
-    images: ["/item_140_01.jpeg", "/item_140_02.jpeg"],
-  },
-  {
-    id: "item_141",
-    creator: "@lj_yeo.21",
-    creatorUrl: "https://www.threads.com/@lj_yeo.21",
-    types: ["票夾"],
-    title: "自製票夾｜可裝 ibon 票",
-    postUrl:
-      "https://www.threads.com/@lj_yeo.21/post/DV3Or7zD-Yu?xmt=AQF0zJ10QtKRZtNn0CbTm4aHq8KPuo0mK4Ozm-MV3JnGNg",
-    postContent: `自己做了票夾，剛好能裝 ibon 的票！
+  images: [
+    "/item_140_01.jpeg",
+    "/item_140_02.jpeg",
+  ],
+},
+{
+  id: "item_141",
+  creator: "@lj_yeo.21",
+  creatorUrl: "https://www.threads.com/@lj_yeo.21",
+  types: ["票夾"],
+  title: "自製票夾｜可裝 ibon 票",
+  postUrl:
+    "https://www.threads.com/@lj_yeo.21/post/DV3Or7zD-Yu?xmt=AQF0zJ10QtKRZtNn0CbTm4aHq8KPuo0mK4Ozm-MV3JnGNg",
+  postContent: `自己做了票夾，剛好能裝 ibon 的票！
 會有人需要嗎？`,
-    images: ["/item_141_01.jpeg", "/item_141_02.jpeg"],
-  },
-  {
-    id: "item_142",
-    creator: "@yyr_0406",
-    creatorUrl: "https://www.threads.com/@yyr_0406",
-    types: ["鑰匙圈"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜鑰匙圈",
-    postUrl:
-      "https://www.threads.com/@yyr_0406/post/DTSghTHgQh0?xmt=AQF0LhPeKGbvhLy-peV5y-tWLxFAksU_VcjZw5jg_vAKCg",
-    postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI
+  images: [
+    "/item_141_01.jpeg",
+    "/item_141_02.jpeg",
+  ],
+},
+{
+  id: "item_142",
+  creator: "@yyr_0406",
+  creatorUrl: "https://www.threads.com/@yyr_0406",
+  types: ["鑰匙圈"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜鑰匙圈",
+  postUrl:
+    "https://www.threads.com/@yyr_0406/post/DTSghTHgQh0?xmt=AQF0LhPeKGbvhLy-peV5y-tWLxFAksU_VcjZw5jg_vAKCg",
+  postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI
 
 搶票的時候有說到搶到票要來發應援，所以這次做了一些鑰匙圈。
 
@@ -4324,17 +4330,17 @@ TWICE 官方周邊
 
 禁止轉售
 禁止代領。`,
-    images: ["/item_142_01.jpeg"],
-  },
-  {
-    id: "item_143",
-    creator: "@yee7_0825",
-    creatorUrl: "https://www.threads.com/@yee7_0825",
-    types: ["吊飾"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜寵物機小吊飾與樂高小人吊飾",
-    postUrl:
-      "https://www.threads.com/@yee7_0825/post/DV3vgOZEuN7?xmt=AQF0cGVglmiJnHsT-eIqArxf9uvcjZKGmxxYkECVdjlr8A",
-    postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI 免費應援物發放
+  images: ["/item_142_01.jpeg"],
+},
+{
+  id: "item_143",
+  creator: "@yee7_0825",
+  creatorUrl: "https://www.threads.com/@yee7_0825",
+  types: ["吊飾"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜寵物機小吊飾與樂高小人吊飾",
+  postUrl:
+    "https://www.threads.com/@yee7_0825/post/DV3vgOZEuN7?xmt=AQF0cGVglmiJnHsT-eIqArxf9uvcjZKGmxxYkECVdjlr8A",
+  postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI 免費應援物發放
 
 由於現生比較忙碌，沒辦法做新的應援，所以把上次高雄場的餘量全部發完。
 
@@ -4357,17 +4363,20 @@ TWICE 官方周邊
 每一個都是手工塗色 / 黏貼，會有些許瑕疵
 每人限領一個
 禁轉賣、禁代領。`,
-    images: ["/item_143_01.jpeg", "/item_143_02.jpeg"],
-  },
-  {
-    id: "item_144",
-    creator: "@twicetwice_chalhaja",
-    creatorUrl: "https://www.threads.com/@twicetwice_chalhaja",
-    types: ["徽章"],
-    title: "TWICE THIS IS FOR 臺北站免費應援發放｜水果王國手繪徽章",
-    postUrl:
-      "https://www.threads.com/@twicetwice_chalhaja/post/DViwPL2ka3m?xmt=AQF04iv5yas9pISQXsjOEFu_Gegz07PprO9PztknJ1UL9Q",
-    postContent: `TWICE THIS IS FOR 臺北站免費應援發放
+  images: [
+    "/item_143_01.jpeg",
+    "/item_143_02.jpeg",
+  ],
+},
+{
+  id: "item_144",
+  creator: "@twicetwice_chalhaja",
+  creatorUrl: "https://www.threads.com/@twicetwice_chalhaja",
+  types: ["徽章"],
+  title: "TWICE THIS IS FOR 臺北站免費應援發放｜水果王國手繪徽章",
+  postUrl:
+    "https://www.threads.com/@twicetwice_chalhaja/post/DViwPL2ka3m?xmt=AQF04iv5yas9pISQXsjOEFu_Gegz07PprO9PztknJ1UL9Q",
+  postContent: `TWICE THIS IS FOR 臺北站免費應援發放
 
 這次以水果王國台灣作為手繪概念，做了三款應援徽章：
 紗夏
@@ -4380,13 +4389,13 @@ TWICE 官方周邊
 高雄場應援有一些餘量也會一起發。
 
 應援物僅供免費發送，禁止抄襲、轉賣。`,
-    images: [
-      "/item_144_01.jpeg",
-      "/item_144_02.jpeg",
-      "/item_144_03.jpeg",
-      "/item_144_04.jpeg",
-      "/item_144_05.jpeg",
-      "/item_144_06.jpeg",
-    ],
-  },
+  images: [
+    "/item_144_01.jpeg",
+    "/item_144_02.jpeg",
+    "/item_144_03.jpeg",
+    "/item_144_04.jpeg",
+    "/item_144_05.jpeg",
+    "/item_144_06.jpeg",
+  ],
+},
 ];
