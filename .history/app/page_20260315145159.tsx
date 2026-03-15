@@ -131,6 +131,10 @@ function HomeContent() {
   }, [searchParams]);
 
   useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedType, keyword]);
+
+  useEffect(() => {
     if (currentPage > totalPages) {
       setCurrentPage(1);
     }
@@ -398,17 +402,15 @@ function HomeContent() {
         <div className="mt-8 rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm">
           <h2 className="text-xl font-semibold text-neutral-900">文字搜尋</h2>
           <p className="mt-2 text-sm leading-6 text-neutral-600">
-            可搜尋創作者帳號或應援物標題。
+            可搜尋創作者帳號或應援物標題，例如 creator
+            名稱、帳號關鍵字或應援名稱。
           </p>
 
           <div className="mt-4">
             <input
               type="text"
               value={keyword}
-              onChange={(e) => {
-                setKeyword(e.target.value);
-                setCurrentPage(1);
-              }}
+              onChange={(e) => setKeyword(e.target.value)}
               placeholder="搜尋創作者帳號或應援物標題"
               className="w-full rounded-2xl border border-neutral-300 bg-white px-4 py-3 text-sm text-neutral-800 outline-none transition focus:border-black"
             />

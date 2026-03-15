@@ -131,6 +131,10 @@ function HomeContent() {
   }, [searchParams]);
 
   useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedType, keyword]);
+
+  useEffect(() => {
     if (currentPage > totalPages) {
       setCurrentPage(1);
     }
@@ -405,10 +409,7 @@ function HomeContent() {
             <input
               type="text"
               value={keyword}
-              onChange={(e) => {
-                setKeyword(e.target.value);
-                setCurrentPage(1);
-              }}
+              onChange={(e) => setKeyword(e.target.value)}
               placeholder="搜尋創作者帳號或應援物標題"
               className="w-full rounded-2xl border border-neutral-300 bg-white px-4 py-3 text-sm text-neutral-800 outline-none transition focus:border-black"
             />

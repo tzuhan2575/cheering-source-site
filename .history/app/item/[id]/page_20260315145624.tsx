@@ -13,6 +13,7 @@ export default async function ItemDetailPage({
   const { id } = await params;
   const resolvedSearchParams = searchParams ? await searchParams : {};
   const backHref = resolvedSearchParams?.from || "/";
+  const backHref = resolvedSearchParams?.from || "/";
 
   const item: Item | undefined = items.find((entry) => entry.id === id);
 

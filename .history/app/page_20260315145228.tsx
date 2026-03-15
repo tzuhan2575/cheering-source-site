@@ -131,6 +131,10 @@ function HomeContent() {
   }, [searchParams]);
 
   useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedType, keyword]);
+
+  useEffect(() => {
     if (currentPage > totalPages) {
       setCurrentPage(1);
     }
