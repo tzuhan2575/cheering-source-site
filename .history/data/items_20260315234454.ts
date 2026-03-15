@@ -4025,15 +4025,14 @@ TWICE 各成員學生證
     images: ["/item_131_01.jpeg", "/item_131_02.jpeg"],
   },
   {
-    id: "item_132",
-    creator: "@twice_once_littletwinstars",
-    creatorUrl: "https://www.threads.com/@twice_once_littletwinstars",
-    types: ["貼紙", "其他"],
-    title:
-      "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜便條紙、透明御守貼紙與應援筆",
-    postUrl:
-      "https://www.threads.com/@twice_once_littletwinstars/post/DVbUcWakif9?xmt=AQF0AmTlzuo8nBSximm2Sbj1kIjMVFGmgh2BudtKnWWHLQ",
-    postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI 台北場應援
+  id: "item_132",
+  creator: "@twice_once_littletwinstars",
+  creatorUrl: "https://www.threads.com/@twice_once_littletwinstars",
+  types: ["便條紙", "貼紙", "原子筆"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜便條紙、透明御守貼紙與應援筆",
+  postUrl:
+    "https://www.threads.com/@twice_once_littletwinstars/post/DVbUcWakif9?xmt=AQF0AmTlzuo8nBSximm2Sbj1kIjMVFGmgh2BudtKnWWHLQ",
+  postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI 台北場應援
 
 這次做了三種應援品，歡迎各位來找我領取或交換。
 
@@ -4055,22 +4054,22 @@ TWICE 各成員學生證
 領取用抽籤方式
 
 另外有轉發 + 留言抽獎活動。`,
-    images: [
-      "/item_132_01.jpeg",
-      "/item_132_02.jpeg",
-      "/item_132_03.jpeg",
-      "/item_132_04.jpeg",
-    ],
-  },
-  {
-    id: "item_133",
-    creator: "@xy_0227",
-    creatorUrl: "https://www.threads.com/@xy_0227",
-    types: ["吊飾", "其他"],
-    title: "TWICE THIS IS FOR WORLD TOUR 台北場應援｜鉤針小熊吊飾",
-    postUrl:
-      "https://www.threads.com/@xy_0227/post/DVC8av0DdJW?xmt=AQF0Xa_DCC1YYlCi9fOfacx-POTjth60OLaZQqCTGcVEmQ",
-    postContent: `TWICE THIS IS FOR WORLD TOUR 台北場應援 3/21 正式應援公告
+  images: [
+    "/item_132_01.jpeg",
+    "/item_132_02.jpeg",
+    "/item_132_03.jpeg",
+    "/item_132_04.jpeg",
+  ],
+},
+{
+  id: "item_133",
+  creator: "@xy_0227",
+  creatorUrl: "https://www.threads.com/@xy_0227",
+  types: ["吊飾", "其他"],
+  title: "TWICE THIS IS FOR WORLD TOUR 台北場應援｜鉤針小熊吊飾",
+  postUrl:
+    "https://www.threads.com/@xy_0227/post/DVC8av0DdJW?xmt=AQF0Xa_DCC1YYlCi9fOfacx-POTjth60OLaZQqCTGcVEmQ",
+  postContent: `TWICE THIS IS FOR WORLD TOUR 台北場應援 3/21 正式應援公告
 
 應援物：
 鉤針小熊吊飾
@@ -4090,17 +4089,20 @@ TWICE 各成員學生證
 每人限領一份
 禁止代領、二次交換、販賣和隨意丟棄
 每隻小熊皆為手工製作，會有些微差異。`,
-    images: ["/item_133_01.jpeg", "/item_133_02.jpeg"],
-  },
-  {
-    id: "item_134",
-    creator: "@lyp_yupinky",
-    creatorUrl: "https://www.threads.com/@lyp_yupinky",
-    types: ["磁鐵", "貼紙"],
-    title: "TWICE THIS FOR WORLD TOUR IN TAIPEI｜冰箱貼與Lovely轉印貼",
-    postUrl:
-      "https://www.threads.com/@lyp_yupinky/post/DVu6trRj4L6?xmt=AQF0dzIFJsB-P6Qvkx76ccfB7IggjwSAnSDYbMztkARS2A",
-    postContent: `TWICE THIS FOR WORLD TOUR IN TAIPEI 應援小物
+  images: [
+    "/item_133_01.jpeg",
+    "/item_133_02.jpeg",
+  ],
+},
+{
+  id: "item_134",
+  creator: "@lyp_yupinky",
+  creatorUrl: "https://www.threads.com/@lyp_yupinky",
+  types: ["磁鐵", "貼紙"],
+  title: "TWICE THIS FOR WORLD TOUR IN TAIPEI｜冰箱貼與Lovely轉印貼",
+  postUrl:
+    "https://www.threads.com/@lyp_yupinky/post/DVu6trRj4L6?xmt=AQF0dzIFJsB-P6Qvkx76ccfB7IggjwSAnSDYbMztkARS2A",
+  postContent: `TWICE THIS FOR WORLD TOUR IN TAIPEI 應援小物
 
 地點：
 當日更新 Threads
@@ -4118,17 +4120,20 @@ Lovely 轉印貼
 
 注意事項：
 一人限領一個。`,
-    images: ["/item_134_01.jpeg", "/item_134_02.jpeg"],
-  },
-  {
-    id: "item_135",
-    creator: "@_wpyy0708",
-    creatorUrl: "https://www.threads.com/@_wpyy0708",
-    types: ["其他", "吊飾"],
-    title: "TWICE THIS IS FOR WORLD TOUR in TAIPEI｜MOMO ID卡",
-    postUrl:
-      "https://www.threads.com/@_wpyy0708/post/DVFFxDrkhON?xmt=AQF0ozH6aExJQfG1KcdzpnUC4d7EjyJiR6_K-18T5oeZfA",
-    postContent: `TWICE THIS IS FOR WORLD TOUR in TAIPEI 免費應援發放
+  images: [
+    "/item_134_01.jpeg",
+    "/item_134_02.jpeg",
+  ],
+},
+{
+  id: "item_135",
+  creator: "@_wpyy0708",
+  creatorUrl: "https://www.threads.com/@_wpyy0708",
+  types: ["其他", "吊飾"],
+  title: "TWICE THIS IS FOR WORLD TOUR in TAIPEI｜MOMO ID卡",
+  postUrl:
+    "https://www.threads.com/@_wpyy0708/post/DVFFxDrkhON?xmt=AQF0ozH6aExJQfG1KcdzpnUC4d7EjyJiR6_K-18T5oeZfA",
+  postContent: `TWICE THIS IS FOR WORLD TOUR in TAIPEI 免費應援發放
 
 這次準備的應援物是 MOMO ID 卡，歡迎大家來找我領應援。
 
@@ -4146,17 +4151,21 @@ Lovely 轉印貼
 應援物禁止丟棄、轉售
 
 另外還有高雄場應援物濕紙巾，以及少量娜 / 紗 / 瑜吊飾。`,
-    images: ["/item_135_01.jpeg", "/item_135_02.jpeg", "/item_135_03.jpeg"],
-  },
-  {
-    id: "item_136",
-    creator: "@hightzu_0114",
-    creatorUrl: "https://www.threads.com/@hightzu_0114",
-    types: ["吊飾"],
-    title: "壓克力球手作吊飾",
-    postUrl:
-      "https://www.threads.com/@hightzu_0114/post/DV6OfgjD7hJ?xmt=AQF0j1MDewRhciiHbf9NnFvEvMLOeaK4ewIOYIzPgJKRsg",
-    postContent: `安妞，這個人決定來趕應援了。
+  images: [
+    "/item_135_01.jpeg",
+    "/item_135_02.jpeg",
+    "/item_135_03.jpeg",
+  ],
+},
+{
+  id: "item_136",
+  creator: "@hightzu_0114",
+  creatorUrl: "https://www.threads.com/@hightzu_0114",
+  types: ["吊飾"],
+  title: "壓克力球手作吊飾",
+  postUrl:
+    "https://www.threads.com/@hightzu_0114/post/DV6OfgjD7hJ?xmt=AQF0j1MDewRhciiHbf9NnFvEvMLOeaK4ewIOYIzPgJKRsg",
+  postContent: `安妞，這個人決定來趕應援了。
 
 應援物：
 壓克力球手作吊飾
@@ -4173,6 +4182,9 @@ Lovely 轉印貼
 
 當天會發文公布發放地點 + 穿搭
 想要交換也可以留言 / 私訊。`,
-    images: ["/item_136_01.jpeg", "/item_136_02.jpeg"],
-  },
+  images: [
+    "/item_136_01.jpeg",
+    "/item_136_02.jpeg",
+  ],
+},
 ];
