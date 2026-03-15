@@ -2650,7 +2650,7 @@ set 內容物：
     id: "item_082",
     creator: "@wang890215",
     creatorUrl: "https://www.threads.com/@wang890215",
-    types: ["吊飾", "貼紙", "其他"],
+    types: ["手機支架", "吊飾", "貼紙", "其他"],
     title: "TWICE 多功能支架、吊飾與多賢貼紙／照片",
     postUrl:
       "https://www.threads.com/@wang890215/post/DV3TmoSievu?xmt=AQF05FCw7SCbomtMJ2o2XYIlmTj7Spy-7sjow84GW__oMA",
