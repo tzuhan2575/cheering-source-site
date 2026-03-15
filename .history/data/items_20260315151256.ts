@@ -2269,14 +2269,14 @@ TWICE 即將在台北大巨蛋舉辦三場演唱會！
     ],
   },
   {
-    id: "item_072",
-    creator: "@jns_tz",
-    creatorUrl: "https://www.threads.com/@jns_tz",
-    types: ["其他", "小卡"],
-    title: "TWICE THIS IS FOR 台北場應援成品｜Lovely編織娃娃與小卡卡套",
-    postUrl:
-      "https://www.threads.com/@jns_tz/post/DVgBdj2knzO?xmt=AQF0oywCuGELo57yx2WDeTBajx6d2ONi1shNi4NF-oLkbA",
-    postContent: `TWICE台北場倒數15天，小編來發放應援啦！
+  id: "item_072",
+  creator: "@jns_tz",
+  creatorUrl: "https://www.threads.com/@jns_tz",
+  types: ["其他", "小卡"],
+  title: "TWICE THIS IS FOR 台北場應援成品｜Lovely編織娃娃與小卡卡套",
+  postUrl:
+    "https://www.threads.com/@jns_tz/post/DVgBdj2knzO?xmt=AQF0oywCuGELo57yx2WDeTBajx6d2ONi1shNi4NF-oLkbA",
+  postContent: `TWICE台北場倒數15天，小編來發放應援啦！
 TWICE THIS IS FOR 台北場應援成品
 
 3/21、3/22 將在台北大巨蛋發放（3/20 沒有發放）
@@ -2303,22 +2303,22 @@ Lovely 娃娃 / 小卡卡套只能二選一
 
 數量有限，先到先得，沒辦法保留。
 期待有緣 ONCE 來領取。`,
-    images: [
-      "/item_072_01.jpeg",
-      "/item_072_02.jpeg",
-      "/item_072_03.jpeg",
-      "/item_072_04.jpeg",
-    ],
-  },
-  {
-    id: "item_073",
-    creator: "@ybear.l",
-    creatorUrl: "https://www.threads.com/@ybear.l",
-    types: ["鑰匙圈"],
-    title: "TWICE THIS IF FOR WORLD TOUR IN TAIPEI｜九兔愛心金屬鑰匙圈",
-    postUrl:
-      "https://www.threads.com/@ybear.l/post/DVoF2oRCZV6?xmt=AQF0fJsOe_eDZGDOswTTTaKZwkvtEyzDil1HxSxEWxpDDA",
-    postContent: `TWICE <THIS IF FOR> WORLD TOUR IN TAIPEI 免費應援物發放
+  images: [
+    "/item_072_01.jpeg",
+    "/item_072_02.jpeg",
+    "/item_072_03.jpeg",
+    "/item_072_04.jpeg",
+  ],
+},
+{
+  id: "item_073",
+  creator: "@ybear.l",
+  creatorUrl: "https://www.threads.com/@ybear.l",
+  types: ["鑰匙圈"],
+  title: "TWICE THIS IF FOR WORLD TOUR IN TAIPEI｜九兔愛心金屬鑰匙圈",
+  postUrl:
+    "https://www.threads.com/@ybear.l/post/DVoF2oRCZV6?xmt=AQF0fJsOe_eDZGDOswTTTaKZwkvtEyzDil1HxSxEWxpDDA",
+  postContent: `TWICE <THIS IF FOR> WORLD TOUR IN TAIPEI 免費應援物發放
 九兔愛心金屬鑰匙圈
 
 和 @feiyangz.l 一起做的應援，是雙面的鑰匙圈。
@@ -2338,32 +2338,32 @@ Lovely 娃娃 / 小卡卡套只能二選一
 每人限領一份，不可代領
 21 號我們會去聽彩排，不確定是否會一直待在場外，也許沒發完進 VIP 區繼續發
 也歡迎交換，可以在底下留言。`,
-    images: [
-      "/item_073_01.jpeg",
-      "/item_073_02.jpeg",
-      "/item_073_03.jpeg",
-      "/item_073_04.jpeg",
-      "/item_073_05.jpeg",
-      "/item_073_06.jpeg",
-      "/item_073_07.jpeg",
-      "/item_073_08.jpeg",
-      "/item_073_09.jpeg",
-      "/item_073_10.jpeg",
-      "/item_073_11.jpeg",
-      "/item_073_12.jpeg",
-      "/item_073_13.jpeg",
-      "/item_073_14.jpeg",
-    ],
-  },
-  {
-    id: "item_074",
-    creator: "@gina_g914",
-    creatorUrl: "https://www.threads.com/@gina_g914",
-    types: ["其他"],
-    title: "TWICE THIS IS FOR WORLD TOUR in TAIPEI｜應援信用卡",
-    postUrl:
-      "https://www.threads.com/@gina_g914/post/DVns2nSEXQw?xmt=AQF0KOcK9kT-EyWM0XIrilrinubAXnfG-vTrOSKWU3GLmA",
-    postContent: `TWICE | THIS IS FOR / WORLD TOUR in TAIPEI 台北場應援
+  images: [
+    "/item_073_01.jpeg",
+    "/item_073_02.jpeg",
+    "/item_073_03.jpeg",
+    "/item_073_04.jpeg",
+    "/item_073_05.jpeg",
+    "/item_073_06.jpeg",
+    "/item_073_07.jpeg",
+    "/item_073_08.jpeg",
+    "/item_073_09.jpeg",
+    "/item_073_10.jpeg",
+    "/item_073_11.jpeg",
+    "/item_073_12.jpeg",
+    "/item_073_13.jpeg",
+    "/item_073_14.jpeg",
+  ],
+},
+{
+  id: "item_074",
+  creator: "@gina_g914",
+  creatorUrl: "https://www.threads.com/@gina_g914",
+  types: ["其他"],
+  title: "TWICE THIS IS FOR WORLD TOUR in TAIPEI｜應援信用卡",
+  postUrl:
+    "https://www.threads.com/@gina_g914/post/DVns2nSEXQw?xmt=AQF0KOcK9kT-EyWM0XIrilrinubAXnfG-vTrOSKWU3GLmA",
+  postContent: `TWICE | THIS IS FOR / WORLD TOUR in TAIPEI 台北場應援
 
 大家好，我是 Gina。
 這次和朋友們一起設計了應援信用卡，會在場外發放，歡迎各位來領取或交換。
@@ -2392,25 +2392,25 @@ Mina 款 200 份
 
 喜歡的話歡迎各位幫我分享。
 部分印刷可能會有些許瑕疵，請大家見諒。`,
-    images: [
-      "/item_074_01.jpeg",
-      "/item_074_02.jpeg",
-      "/item_074_03.jpeg",
-      "/item_074_04.jpeg",
-      "/item_074_05.jpeg",
-      "/item_074_06.jpeg",
-      "/item_074_07.jpeg",
-    ],
-  },
-  {
-    id: "item_075",
-    creator: "@y1xin9._",
-    creatorUrl: "https://www.threads.com/@y1xin9._",
-    types: ["徽章"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜徽章應援",
-    postUrl:
-      "https://www.threads.com/@y1xin9._/post/DVXyW15EhHY?xmt=AQF0Jd6gZYNl0mRzkwYmzlbXJE0JjSPEtUXbLmQ2WvsSUA",
-    postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI 台北場免費應援發放
+  images: [
+    "/item_074_01.jpeg",
+    "/item_074_02.jpeg",
+    "/item_074_03.jpeg",
+    "/item_074_04.jpeg",
+    "/item_074_05.jpeg",
+    "/item_074_06.jpeg",
+    "/item_074_07.jpeg",
+  ],
+},
+{
+  id: "item_075",
+  creator: "@y1xin9._",
+  creatorUrl: "https://www.threads.com/@y1xin9._",
+  types: ["胸章"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜徽章應援",
+  postUrl:
+    "https://www.threads.com/@y1xin9._/post/DVXyW15EhHY?xmt=AQF0Jd6gZYNl0mRzkwYmzlbXJE0JjSPEtUXbLmQ2WvsSUA",
+  postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI 台北場免費應援發放
 
 為了這次台北場準備了徽章應援，這裡先放個預覽圖給大家參考，等實體出來再放在留言區。
 希望先以交換為主，有興趣的朋友歡迎留言或私訊，餘量將會在場外發放。
@@ -2432,27 +2432,27 @@ Mina 款 200 份
 
 領取條件：
 出示本篇貼文、任意官方周邊、門票、手燈等。`,
-    images: [
-      "/item_075_01.jpeg",
-      "/item_075_02.jpeg",
-      "/item_075_03.jpeg",
-      "/item_075_04.jpeg",
-      "/item_075_05.jpeg",
-      "/item_075_06.jpeg",
-      "/item_075_07.jpeg",
-      "/item_075_08.jpeg",
-      "/item_075_09.jpeg",
-    ],
-  },
-  {
-    id: "item_076",
-    creator: "@shu_____b",
-    creatorUrl: "https://www.threads.com/@shu_____b",
-    types: ["其他", "徽章"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜密碼鎖筆記本與徽章",
-    postUrl:
-      "https://www.threads.com/@shu_____b/post/DUBLuqjksag?xmt=AQF0ZJtUWAJ_M-xW5oT0-rVQuwEIwydWcfZWvFyrUBzzKg",
-    postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI
+  images: [
+    "/item_075_01.jpeg",
+    "/item_075_02.jpeg",
+    "/item_075_03.jpeg",
+    "/item_075_04.jpeg",
+    "/item_075_05.jpeg",
+    "/item_075_06.jpeg",
+    "/item_075_07.jpeg",
+    "/item_075_08.jpeg",
+    "/item_075_09.jpeg",
+  ],
+},
+{
+  id: "item_076",
+  creator: "@shu_____b",
+  creatorUrl: "https://www.threads.com/@shu_____b",
+  types: ["其他", "徽章"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜密碼鎖筆記本與徽章",
+  postUrl:
+    "https://www.threads.com/@shu_____b/post/DUBLuqjksag?xmt=AQF0ZJtUWAJ_M-xW5oT0-rVQuwEIwydWcfZWvFyrUBzzKg",
+  postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI
 
 大家好我又來了！
 這次做了一個超暴露年紀的應援物。
@@ -2468,17 +2468,20 @@ Mina 款 200 份
 
 我 3/21、3/22 兩天都會到現場發放，徽章一天預估 20～30 個。
 時間、地點、穿著當天會再公布，也歡迎大家在半路攔截我。`,
-    images: ["/item_076_01.jpeg", "/item_076_02.jpeg"],
-  },
-  {
-    id: "item_077",
-    creator: "@tttion_yu",
-    creatorUrl: "https://www.threads.com/@tttion_yu",
-    types: ["手幅", "小卡", "其他", "貼紙", "磁鐵"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜應援資訊統整",
-    postUrl:
-      "https://www.threads.com/@tttion_yu/post/DUiGAfWksTn?xmt=AQF0BEtttdG-pvv33mdtG6zoJ9u1v1ynZpODltxCUHk6Zw",
-    postContent: `TWICE＜THIS IS FOR＞WORLD TOUR IN TAIPEI 3/20、21、22 應援發放公告
+  images: [
+    "/item_076_01.jpeg",
+    "/item_076_02.jpeg",
+  ],
+},
+{
+  id: "item_077",
+  creator: "@tttion_yu",
+  creatorUrl: "https://www.threads.com/@tttion_yu",
+  types: ["手幅", "小卡", "其他", "貼紙", "磁鐵"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜應援資訊統整",
+  postUrl:
+    "https://www.threads.com/@tttion_yu/post/DUiGAfWksTn?xmt=AQF0BEtttdG-pvv33mdtG6zoJ9u1v1ynZpODltxCUHk6Zw",
+  postContent: `TWICE＜THIS IS FOR＞WORLD TOUR IN TAIPEI 3/20、21、22 應援發放公告
 
 這篇統整所有應援資訊。
 這次會有聯合應援，主要發放會是 3/21、3/22，3/20 主要交換，少量免費應援。
@@ -2500,23 +2503,23 @@ Mina 款 200 份
 
 交換可選任一喜歡應援，基本上一份換一份。
 每份交換應援會加拍立得小卡與貼紙。`,
-    images: [
-      "/item_077_01.jpeg",
-      "/item_077_02.jpeg",
-      "/item_077_03.jpeg",
-      "/item_077_04.jpeg",
-      "/item_077_05.jpeg",
-    ],
-  },
-  {
-    id: "item_078",
-    creator: "@iifetsky_",
-    creatorUrl: "https://www.threads.com/@iifetsky_",
-    types: ["其他", "票夾", "吊飾", "貼紙", "徽章"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜免費應援小物",
-    postUrl:
-      "https://www.threads.com/@iifetsky_/post/DUstR0Ok34O?xmt=AQF0haZWbbCoTzz-bQSx_K1xE8JKaN_aQ3FtOSVfMA4wYw",
-    postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI 台北場免費應援小物來啦
+  images: [
+    "/item_077_01.jpeg",
+    "/item_077_02.jpeg",
+    "/item_077_03.jpeg",
+    "/item_077_04.jpeg",
+    "/item_077_05.jpeg",
+  ],
+},
+{
+  id: "item_078",
+  creator: "@iifetsky_",
+  creatorUrl: "https://www.threads.com/@iifetsky_",
+  types: ["其他", "票夾", "吊飾", "貼紙", "徽章"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜免費應援小物",
+  postUrl:
+    "https://www.threads.com/@iifetsky_/post/DUstR0Ok34O?xmt=AQF0haZWbbCoTzz-bQSx_K1xE8JKaN_aQ3FtOSVfMA4wYw",
+  postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI 台北場免費應援小物來啦
 
 應援內容：
 1. 迷你拉霸機（50 份）
@@ -2538,23 +2541,23 @@ Mina 款 200 份
 交換的話可私下討論
 不能轉售
 這次應援製作成本較高，所以交換的部分可能會小小選一下自己比較喜歡的應援進行交換。`,
-    images: [
-      "/item_078_01.jpeg",
-      "/item_078_02.jpeg",
-      "/item_078_03.jpeg",
-      "/item_078_04.jpeg",
-      "/item_078_05.jpeg",
-    ],
-  },
-  {
-    id: "item_079",
-    creator: "@fang_4_7",
-    creatorUrl: "https://www.threads.com/@fang_4_7",
-    types: ["吊飾"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜便當盒吊飾",
-    postUrl:
-      "https://www.threads.com/@fang_4_7/post/DT-kO2dEjpd?xmt=AQF0JNjbz2PZG_0_8pryvVnuFjVvPHKwJInpFDqPgEiBvg",
-    postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI
+  images: [
+    "/item_078_01.jpeg",
+    "/item_078_02.jpeg",
+    "/item_078_03.jpeg",
+    "/item_078_04.jpeg",
+    "/item_078_05.jpeg",
+  ],
+},
+{
+  id: "item_079",
+  creator: "@fang_4_7",
+  creatorUrl: "https://www.threads.com/@fang_4_7",
+  types: ["吊飾"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜便當盒吊飾",
+  postUrl:
+    "https://www.threads.com/@fang_4_7/post/DT-kO2dEjpd?xmt=AQF0JNjbz2PZG_0_8pryvVnuFjVvPHKwJInpFDqPgEiBvg",
+  postContent: `TWICE <THIS IS FOR> WORLD TOUR IN TAIPEI
 
 03/21、22 免費應援物
 
@@ -2578,17 +2581,20 @@ Mina 款 200 份
 禁轉賣
 禁代領
 希望大家不要丟掉。`,
-    images: ["/item_079_01.jpeg", "/item_079_02.jpeg"],
-  },
-  {
-    id: "item_080",
-    creator: "@__isrtw_",
-    creatorUrl: "https://www.threads.com/@__isrtw_",
-    types: ["貼紙", "其他"],
-    title: "TWICE THIS IS FOR WORLD TOUR｜水晶轉印貼與手機氣囊磁吸支架",
-    postUrl:
-      "https://www.threads.com/@__isrtw_/post/DUTJp9fEUTI?xmt=AQF0VnR7g0huaKymS_RCW4BIHU5zTiPNBr9W8gz4Velp8w",
-    postContent: `TWICE <THIS IS FOR> WORLD TOUR 3/21、22 免費應援發放
+  images: [
+    "/item_079_01.jpeg",
+    "/item_079_02.jpeg",
+  ],
+},
+{
+  id: "item_080",
+  creator: "@__isrtw_",
+  creatorUrl: "https://www.threads.com/@__isrtw_",
+  types: ["貼紙", "手機支架"],
+  title: "TWICE THIS IS FOR WORLD TOUR｜水晶轉印貼與手機氣囊磁吸支架",
+  postUrl:
+    "https://www.threads.com/@__isrtw_/post/DUTJp9fEUTI?xmt=AQF0VnR7g0huaKymS_RCW4BIHU5zTiPNBr9W8gz4Velp8w",
+  postContent: `TWICE <THIS IS FOR> WORLD TOUR 3/21、22 免費應援發放
 
 1. 水晶轉印貼，共 26 份，兩天各發 13 份
 領取條件：持有當日演唱會門票 + 手燈
@@ -2606,17 +2612,20 @@ Mina 款 200 份
 
 我本人兩天都會看彩排，所以發放時間地點會比較隨機一點，會時時公告於社群內。
 如果也是會看彩排的人，到時候會開放彩排入場到彩排開始前在場內領取。`,
-    images: ["/item_080_01.jpeg", "/item_080_02.jpeg"],
-  },
-  {
-    id: "item_081",
-    creator: "@on.ce4ever_",
-    creatorUrl: "https://www.threads.com/@on.ce4ever_",
-    types: ["吊飾", "貼紙", "徽章"],
-    title: "TWICE THIS IS FOR WORLD TOUR in TAIPEI｜免費應援物發放",
-    postUrl:
-      "https://www.threads.com/@on.ce4ever_/post/DTegZ6uEpAO?xmt=AQF0sjF7BZ_c8vkGNM1hIvkBkYXtXqyPcxa80NSnlIX6bA",
-    postContent: `TWICE <THIS IS FOR> WORLD TOUR in TAIPEI 免費應援物發放
+  images: [
+    "/item_080_01.jpeg",
+    "/item_080_02.jpeg",
+  ],
+},
+{
+  id: "item_081",
+  creator: "@on.ce4ever_",
+  creatorUrl: "https://www.threads.com/@on.ce4ever_",
+  types: ["吊飾", "貼紙", "徽章"],
+  title: "TWICE THIS IS FOR WORLD TOUR in TAIPEI｜免費應援物發放",
+  postUrl:
+    "https://www.threads.com/@on.ce4ever_/post/DTegZ6uEpAO?xmt=AQF0sjF7BZ_c8vkGNM1hIvkBkYXtXqyPcxa80NSnlIX6bA",
+  postContent: `TWICE <THIS IS FOR> WORLD TOUR in TAIPEI 免費應援物發放
 
 上次高雄場沒來得及做應援，所以這次提早把應援物生出來了，歡迎大家找我領取。
 
@@ -2644,6 +2653,10 @@ set 內容物：
 不接受代領
 請勿隨意丟棄
 數量有限，發完為止。`,
-    images: ["/item_081_01.jpeg", "/item_081_02.jpeg", "/item_081_03.jpeg"],
-  },
+  images: [
+    "/item_081_01.jpeg",
+    "/item_081_02.jpeg",
+    "/item_081_03.jpeg",
+  ],
+},
 ];
