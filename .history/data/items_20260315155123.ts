@@ -2704,7 +2704,7 @@ set 內容物：
     id: "item_092",
     creator: "@twice.sparkle_",
     creatorUrl: "https://www.threads.com/@twice.sparkle_",
-    types: ["其他"],
+    types: ["吊牌"],
     title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜VIP PASS 紀念吊牌",
     postUrl:
       "https://www.threads.com/@twice.sparkle_/post/DVdr8D0Ep_I?xmt=AQF0_i_ysHAiEnkyO5uLWTETmwNXXdVgjSFuBSuhbFNe4Q",
