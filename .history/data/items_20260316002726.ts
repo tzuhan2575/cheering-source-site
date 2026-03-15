@@ -4390,14 +4390,14 @@ TWICE 官方周邊
     ],
   },
   {
-    id: "item_145",
-    creator: "@zk____02",
-    creatorUrl: "https://www.threads.com/@zk____02",
-    types: ["扇子"],
-    title: "忙內與三歲透扇",
-    postUrl:
-      "https://www.threads.com/@zk____02/post/DTfpL0ck0o7?xmt=AQF0RdqDpVxXSjpk22pBfm03jiQufG0c_Ng0MintyhPQLQ",
-    postContent: `來還願，因高雄場沒做應援，說台北場有票會製作，這次就來了，第一次製圖希望有人領。
+  id: "item_145",
+  creator: "@zk____02",
+  creatorUrl: "https://www.threads.com/@zk____02",
+  types: ["透扇"],
+  title: "忙內與三歲透扇",
+  postUrl:
+    "https://www.threads.com/@zk____02/post/DTfpL0ck0o7?xmt=AQF0RdqDpVxXSjpk22pBfm03jiQufG0c_Ng0MintyhPQLQ",
+  postContent: `來還願，因高雄場沒做應援，說台北場有票會製作，這次就來了，第一次製圖希望有人領。
 
 應援物：
 忙內跟三歲透扇
@@ -4421,45 +4421,45 @@ TWICE 官方周邊
 禁止丟棄
 不要盜圖詐騙
 沒有浮水印不是我本人發的。`,
-    images: ["/item_145_01.jpeg"],
-  },
-  {
-    id: "item_146",
-    creator: "@yyyuu.416",
-    creatorUrl: "https://www.threads.com/@yyyuu.416",
-    types: ["其他"],
-    title: "交換應援｜手鍊",
-    postUrl:
-      "https://www.threads.com/@yyyuu.416/post/DV6TikVk4Qo?xmt=AQF0KaNOevKrBd6_Zu4pGdgQT5_3xgmTBlFsVLiDJE5DIg",
-    postContent: `為了想要去領大家做的應援，自己也做了一大堆。
+  images: ["/item_145_01.jpeg"],
+},
+{
+  id: "item_146",
+  creator: "@yyyuu.416",
+  creatorUrl: "https://www.threads.com/@yyyuu.416",
+  types: ["其他"],
+  title: "交換應援｜手鍊",
+  postUrl:
+    "https://www.threads.com/@yyyuu.416/post/DV6TikVk4Qo?xmt=AQF0KaNOevKrBd6_Zu4pGdgQT5_3xgmTBlFsVLiDJE5DIg",
+  postContent: `為了想要去領大家做的應援，自己也做了一大堆。
 可以請大家跟我交換應援物嗎？
 
 拜託勇敢伸手幫我把手鍊帶回家，還訂做了訂製紙和買了袋子，每一個都會包裝得好好的送大家，希望我當天發得出去。`,
-    images: [
-      "/item_146_01.jpeg",
-      "/item_146_02.jpeg",
-      "/item_146_03.jpeg",
-      "/item_146_04.jpeg",
-      "/item_146_05.jpeg",
-      "/item_146_06.jpeg",
-      "/item_146_07.jpeg",
-      "/item_146_08.jpeg",
-      "/item_146_09.jpeg",
-      "/item_146_10.jpeg",
-      "/item_146_11.jpeg",
-      "/item_146_12.jpeg",
-      "/item_146_13.jpeg",
-    ],
-  },
-  {
-    id: "item_147",
-    creator: "@tina1127_oc",
-    creatorUrl: "https://www.threads.com/@tina1127_oc",
-    types: ["其他"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜LOVELY台灣Q版不織布手提袋",
-    postUrl:
-      "https://www.threads.com/@tina1127_oc/post/DV5jef_kQzn?xmt=AQF08Sm0Fm7lnA_NeT3s4n8gl9hVvxyNPYSlgaBTUZYjWQ",
-    postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI 免費應援物第一彈
+  images: [
+    "/item_146_01.jpeg",
+    "/item_146_02.jpeg",
+    "/item_146_03.jpeg",
+    "/item_146_04.jpeg",
+    "/item_146_05.jpeg",
+    "/item_146_06.jpeg",
+    "/item_146_07.jpeg",
+    "/item_146_08.jpeg",
+    "/item_146_09.jpeg",
+    "/item_146_10.jpeg",
+    "/item_146_11.jpeg",
+    "/item_146_12.jpeg",
+    "/item_146_13.jpeg",
+  ],
+},
+{
+  id: "item_147",
+  creator: "@tina1127_oc",
+  creatorUrl: "https://www.threads.com/@tina1127_oc",
+  types: ["其他"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜LOVELY台灣Q版不織布手提袋",
+  postUrl:
+    "https://www.threads.com/@tina1127_oc/post/DV5jef_kQzn?xmt=AQF08Sm0Fm7lnA_NeT3s4n8gl9hVvxyNPYSlgaBTUZYjWQ",
+  postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI 免費應援物第一彈
 
 LOVELY 台灣 Q 版不織布手提袋
 尺寸 35 × 25 × 10 cm
@@ -4488,17 +4488,17 @@ B. 一般領取
 禁止轉售
 禁止重製使用圖
 禁止丟棄。`,
-    images: ["/item_147_01.jpeg", "/item_147_02.jpeg"],
-  },
-  {
-    id: "item_148",
-    creator: "@twice.once.min",
-    creatorUrl: "https://www.threads.com/@twice.once.min",
-    types: ["其他", "吊飾"],
-    title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜不織布飲料T字提袋",
-    postUrl:
-      "https://www.threads.com/@twice.once.min/post/DV6LVuHE57l?xmt=AQF0rs0SN15azrXXnSThTeiebRl_oNEJgEs2MvC4as42SA",
-    postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI 應援物免費發放
+  images: ["/item_147_01.jpeg", "/item_147_02.jpeg"],
+},
+{
+  id: "item_148",
+  creator: "@twice.once.min",
+  creatorUrl: "https://www.threads.com/@twice.once.min",
+  types: ["其他", "吊飾"],
+  title: "TWICE THIS IS FOR WORLD TOUR IN TAIPEI｜不織布飲料T字提袋",
+  postUrl:
+    "https://www.threads.com/@twice.once.min/post/DV6LVuHE57l?xmt=AQF0rs0SN15azrXXnSThTeiebRl_oNEJgEs2MvC4as42SA",
+  postContent: `TWICE THIS IS FOR WORLD TOUR IN TAIPEI 應援物免費發放
 
 發放日期與時間：
 3/22 下午 1:30 左右
@@ -4522,6 +4522,6 @@ B. 一般領取
 禁止隨意丟棄
 無另外提供包裝
 本帳號保留修正、暫停或最終解釋之權利，以本帳號公布為主。`,
-    images: ["/item_148_01.jpeg"],
-  },
+  images: ["/item_148_01.jpeg"],
+},
 ];
